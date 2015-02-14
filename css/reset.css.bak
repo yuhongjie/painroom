@@ -44,14 +44,9 @@ a{
 a:focus {
     outline: thin dotted;
 }
-a:focus {
-    outline:none!important;
-    outline-offset: -2px;
-    text-decoration: none;
-}
 a:hover{
     color:#017CB9;
-	text-decoration:none;
+	text-decoration:underline;
 }
 /* hn */
 h1{

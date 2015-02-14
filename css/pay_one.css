@@ -1,0 +1,129 @@
+.pay-bread{
+  background-color: #cac9c9;
+  color: #fffefe;
+  font-weight: bolder;
+  font-size: 18px;
+  height: 52px;
+  margin-bottom: 50px;
+}
+.pay-bread-h4{
+  float: left;
+  font-weight: bolder;
+  margin-top: 16px !important;
+}
+/*login*/
+.pay-login-title{
+	font-weight: bolder;
+	font-size: 20px;
+	font-family: "Montserrat" !important;
+}
+.pay-login-form{
+	width: 86%;
+}
+.pay-input-radius{
+	border-radius:0 !important; 
+}
+.btn-orage {
+	border-radius: 0 !important;
+	padding: 6px 16px !important;
+	font-size: 12px !important;
+	color: #fff;
+	background-color: #ff7555;
+	border-color: #ff7555;
+}
+.btn-continu {
+	border-radius: 0 !important;
+	padding: 6px 30px !important;
+	font-size: 12px !important;
+	color: #fff;
+	background-color: #ff7555;
+	border-color: #ff7555;
+}
+.pay-forget{
+	font-size: 12px !important;
+	color: #ff7555;
+}
+.pay-forget:hover{
+	color: #ff7555;
+	text-decoration: none;
+}
+
+.pay-create-title{
+	font-size: 22px;
+}
+.pay-login-div{
+	border: 1px solid #dedede;
+	padding:30px 15px 30px 15px; 
+	margin-top:30px;
+}
+/*login end*/
+.pay-selcet-p{
+	font-weight: bold;
+	font-family: "Myriad Pro";
+}
+.btn-pay {
+	border-radius: 0 !important;
+	padding: 6px 26px !important;
+	font-size: 12px !important;
+	color: #fff;
+	background-color: #ff7555;
+	border-color: #ff7555;
+}
+.pay-pay{
+	background-color: #d0d0d0;
+	width: 40px !important;
+}
+.pay-col{
+	width: 4% !important;
+	padding: 0 !important;
+}
+/*RIGHT TABLE*/
+.pay-table{
+	padding-top: 5px;
+	padding-bottom: 10px;
+	margin-top: 30px;
+	background-color: #f8f8f8;
+}
+.pay-table-td{
+	border-top: none !important;
+	/*padding:10px 30px 10px 30px !important;*/
+}
+.pay-table tr th{
+	font-size: 16px !important;
+	border-bottom: none !important;
+	/*padding: 10px 30px 10px 30px !important;*/
+}
+.pay-table tr td{
+	padding-top: 14px !important;
+	/*padding: 10px 30px 10px 30px !important;*/
+}
+.pay-table1{
+	width: 400px !important;
+	margin:10px 30px 0px !important;
+}
+.pay-td-border{
+    border-top: 1px solid #ddd !important;
+}
+.pay-table2{
+	margin:0px 30px !important;
+}
+.pay-right{
+	text-align: right !important;
+}
+.pay-border{
+	font-weight: bold;
+}
+.pay-color{
+	color: #ff7555 !important;
+}
+.pay-clear{
+	clear: both !important;
+}
+.pay-email-div{
+	 width:42%;
+	 margin-top:70px;
+}
+.pay-select-div{
+	margin-top:90px;
+	margin-bottom:130px;
+}

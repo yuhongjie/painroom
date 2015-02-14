@@ -1,3 +1,6 @@
+body{
+	font-family: "Montserrat",Helvetica,Arial,sans-serif !important;
+}
 /*文字排版*/
 
 .ti{
@@ -99,7 +102,9 @@
 .mt10{margin-top:10px}
 .mt15{margin-top:15px}
 .mt20{margin-top:20px}
+.mt25{margin-top: 25px}
 .mt30{margin-top:30px}
+.mt40{margin-top: 40px}
 .mt50{margin-top:50px}
 .mt60{margin-top: 60px}
 .mt80{margin-top: 80px}
@@ -134,10 +139,12 @@
 .p2{padding:2px}
 .p5{padding:5px}
 .p10{padding:10px;}
+.p12{padding:12px;}
 .p15{padding:15px;}
 .p20{padding:20px}
 .p30{padding:30px;}
 .pt5{padding-top:5px}
+.pt8{padding-top:8px;}
 .pt10{padding-top:10px}
 .pt15{padding-top:15px}
 .pt20{padding-top:20px}
@@ -230,9 +237,18 @@ color:#9ED034;
 .cr5c{
 	color: #5cb85c
 }
+
+/*棕色*/
+.cr93{
+	color: #937d68;
+}
 .cr3b5{
 	color:#3B5998;
 	
+}
+/**/
+.cr777{
+	color: #777;
 }
 .cr00b{
 	color:#00B0ED;

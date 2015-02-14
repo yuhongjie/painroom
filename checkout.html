@@ -11,7 +11,7 @@
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/base.css" rel="stylesheet">
     <link href="css/module.css" rel="stylesheet">
-
+    <link href="css/pay_one.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,14 +19,308 @@
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+<body>
+    <div class="header ">
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 welcome">欢迎光临 痛部屋</div>
+          <div class="col-xs-6">
+            <ul>
+              <li class="home-top-acco"><a href="#"><i class="fa fa-user pr5"></i>我的账户</a></li>     
+              <li class="home-top-myfav"><a href="#"><i class="fa fa-heart-o pr5"></i>我的收藏</a></li>        
+              <li><a href="#"><i class="fa fa-shopping-cart pr5"></i>购物车 0 件商品&nbsp￥0</a></li>    
+           </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img alt="Brand" src="images/logo.png">
+            </a>
+          </div>
 
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a> <span>/</span></li>
+              <li><a href="#">Products</a><span>/</span></li>
+              <li><a href="#">Made By</a><span>/</span></li>
+              <li><a href="#">Login</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search Product">
+              </div>
+              <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+  <!-- bread -->
+      <div class="pay-bread">
+             <div class="container">
+               <h4 class="pay-bread-h4">PAY</h4>
+               <span></span>
+               <div class="fr p12" >
+                 <a class="crfff"  href="index.html">HOME</a>&nbsp;>
+                 <span>PAY</span>
+               </div>
+             </div>
+      </div>
 
+<!-- bread end -->
+<div>
+  <div class="container">
+    <div class="row">
+        <div class="col-xs-7">
+        <h3 class="pay-login-title">Your Contact Email</h3>
+        <div class="pay-login-div">
+          <div class="col-xs-6">
+              <form class="pay-login-form">
+                <div class="form-group  col-xs-12">
+                    <label for="exampleInputEmail1" class="cr777">Email *</label>
+                    <input type="email" class="form-control pay-input-radius" id="exampleInputEmail1" >
+                </div>
+                <div class="form-group col-xs-12 mt10">
+                    <label for="exampleInputPassword1" class="cr777">Password *</label>
+                    <input type="password" class="form-control pay-input-radius" id="exampleInputPassword1" >
+                </div>
+                    <div class="col-xs-3 mt20">
+                      <button type="submit" class="btn btn-orage pay-input-radius">SIGN IN</button>
+                    </div>
+                    <div class="checkbox col-xs-9 mt25">
+                       <label><a href="" class="pay-forget pl10">Forgot password?</a></label>
+                    </div>
+              </form>
+          </div>
+          <div class="col-xs-6 pay-create-col">
+                <div class="form-group  col-xs-12">
+                    <label class="pay-create-title" for="">Create An Account</label>
+                    <div class="radio">
+                      <label class="cr777">
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Register and checkout together
+                      </label>
+                    </div>
+                </div>
+                <div class="form-group  col-xs-12">
+                    <label class="pay-create-title" for="exampleInputEmail1">Guest Checkout</label>
+                    <div class="radio">
+                      <label class="cr777">
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        Checkout  without registering
+                      </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-xs-1">
+                      <button type="submit" class="btn btn-continu ">CONTINU</button>
+                    </div>
+                </div>
+          </div>
+          <div class="pay-clear"></div>
+        </div>
+        </div>
+      <!-- login -->
+        <div class="col-xs-5">
+          <h3 class="pay-login-title">ORDER SUMMARY</h3>
+          <div class="pay-table">
+            <table class="table pay-table1">
+             <thead>
+                <tr>
+                   <th>Products</th>
+                   <th class="pay-right">Total</th>
+                </tr>
+             </thead>
+             <tbody>
+                <tr>
+                   <td>Dining Table</td>
+                   <td class="pay-right">$420</td>
+                </tr>
 
-
-
+                <tr>
+                   <td class="pay-table-td">Office Furniture</td>
+                   <td class="pay-table-td pay-right">$840</td>
+                </tr>
+                  <tr>
+                   <td>cart subtotal</td>
+                   <td class="pay-right pay-border">$1260</td>
+                </tr>
+                <tr>
+                   <td  class="pay-table-td">shipping</td>
+                   <td  class="pay-table-td pay-right pay-border">Free Shipping</td>
+                </tr>
+                <tr>
+                   <td  class="pay-table-td pay-border">Order Total Price</td>
+                   <td  class="pay-table-td pay-right pay-border pay-color">$1260</td>
+                </tr>
+             </tbody>
+            </table>
+          </div>
+        </div>
+  </div>
+    <div class="pay-email-div">
+      <h3 class="pay-login-title">shipping Address</h3>
+     <form class="form-horizontal mt40">
+        <div class="form-group">
+          <div class="col-xs-6">
+            <input type="text" class="form-control pay-input-radius" id="" placeholder="First Name">
+          </div>
+          <div class="col-xs-6">
+            <input type="text" class="form-control pay-input-radius" id="inputEmail3" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <input type="text" class="form-control pay-input-radius" id="inputPassword3" placeholder="Company Name">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <input type="text" class="form-control pay-input-radius" id="inputPassword3" placeholder="Address">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <input type="text" class="form-control pay-input-radius" id="inputPassword3" placeholder="Town/City">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-12">
+            <input type="text" class="form-control pay-input-radius" id="inputPassword3" placeholder="State/Country">
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="col-xs-6">
+            <input type="text" class="form-control pay-input-radius" id="inputEmail3" placeholder="Postcode/ZIP">
+          </div>
+          <div class="col-xs-6">
+            <input type="text" class="form-control pay-input-radius" id="inputEmail3" placeholder="Phone">
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="pay-select-div">
+      <h3  class="pay-login-title">SELECT PAYMENT MODE</h3>
+         <form class="form-horizontal mt30">
+            <div class="form-group">
+                <div class="col-xs-12">
+                  <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        <p class="pay-selcet-p">Direct Bank Transfer</p>
+                        <p>Make your payment directly into our bank account. Please use your Order ID as the payment reference. Your order wont be shipped until the funds have cleared in our account.</p>
+                      </label>
+                  </div>
+                </div>
+            </div>
+              <div class="form-group">
+                <div class="col-xs-1">
+                  <div class="radio">
+                      <label>
+                        <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                        <p class="pay-selcet-p">Paypal</p>
+                      </label>
+                  </div>
+                </div>
+                <div class="col-xs-1 pay-col">
+                  <input type="text" class="form-control pay-input-radius input-sm pay-pay" id="inputPassword3" placeholder="">
+                </div>
+                <div class="col-xs-1 pay-col">
+                  <input type="text" class="form-control pay-input-radius input-sm pay-pay" id="inputPassword3" placeholder="">
+                </div>
+                <div class="col-xs-1 pay-col">
+                  <input type="text" class="form-control pay-input-radius input-sm pay-pay" id="inputPassword3" placeholder="">
+                </div>
+                <div class="col-xs-1 pay-col">
+                  <input type="text" class="form-control pay-input-radius input-sm pay-pay" id="inputPassword3" placeholder="">
+                </div>
+                <div class="col-xs-1 pay-col">
+                  <input type="text" class="form-control pay-input-radius input-sm pay-pay" id="inputPassword3" placeholder="">
+                </div>
+            </div>
+            <div class="form-group">
+              <div class="col-xs-10">
+                <button type="submit" class="btn btn-pay ">SUBMIT</button>
+              </div>
+            </div>
+          </form>
+    </div>
+  </div>
+</div>
+    <!-- footer -->
+  <div class="footer ">
+    <div class="foot-share-wrap">
+     <div class="foot-share container">
+       <ul>
+         <li><a href="#"><i class="fa fa-facebook "></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter "></i></a></li>
+         <li><a href="#"><i class="fa fa-tumblr "></i></a></li>
+         <li><a href="#"><i class="fa fa-google-plus "></i></a></li>
+         <li><a href="#"><i class="fa fa-dribbble "></i></a></li>
+       </ul>
+       <div>FOLLOW US</div>
+     </div>
+     <div class="foot-mid container">
+       <div class="row">
+          <div class="foot-mid-left col-md-4">
+            <h2><a href=""><img src="images/logo.png" alt=""></a></h2>
+            <p>
+              2010年SO-ZOが7月22日よりオタク向けサービス「 痛部屋 」を开始した。 版権取得済みのキャラクターやアニメ作品の风景などを再现した壁纸やカーテン、布団カバーなどの「痛イ.
+              <br>再现した壁纸やカーカーテン、布団カバーなどの「痛イ.
+            </p>
+          </div>
+          <div class="foot-mid-right col-md-2 col-md-offset-2">
+            <h2>MY ACCOUNT</h2>
+            <ul>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">写真</a></li>
+            </ul>
+          </div>
+          <div class="foot-mid-right col-md-2">
+            <h2>MY ACCOUNT</h2>
+            <ul>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">本·漫画</a></li>
+            </ul>
+          </div>
+          <div class="foot-mid-right col-md-2">
+            <h2>CONTACT</h2>
+            <ul>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">やカーカーテン</a></li>
+              <li><a href="#">本·漫画</a></li>
+            </ul>
+          </div>
+       </div>
+     </div>
+     <div class="foot-bottom">
+       <p class="container">Copyright &copy 2014<a href="index.html">痛部屋</a>All Rights Reserved</p>
+     </div>
+   </div>
+  </div>
+  <!-- footer end -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
