@@ -245,11 +245,10 @@ hr {
 }
 .product-list  .btn {
     display: inline-block;
-    padding: 7px 23px;
+    padding: 8px 24px 7px 24px;
     margin-bottom: 0px;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 1.42857;
+    line-height: 1.42859;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -263,7 +262,7 @@ hr {
 .product-list .btn:hover {
 	background-color:#FF7555 ;
 	color: #fff;
-	border: none;
+	border: 2px solid #FF7555 ;
 }
 /* end-- */
 /* productlist hover style begin */
