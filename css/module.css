@@ -323,8 +323,9 @@ hr {
 }
 .path-nav p {
 	float: left;
-	line-height: 52px;
-	font-size: 18px;
+	line-height: 49px;
+	font-size: 14px;
+	font-weight: bolder;
 	color: #fff;
 }
 .l-breadcrumb {
