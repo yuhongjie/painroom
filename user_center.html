@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>痛部屋</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/module.css" rel="stylesheet">
+    <link href="css/usecenter.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="header ">
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 welcome">欢迎光临 痛部屋</div>
+          <div class="col-xs-6">
+            <ul>
+              <li class="home-top-acco"><a href="#"><i class="fa fa-user pr5"></i>我的账户</a></li>     
+              <li class="home-top-myfav"><a href="#"><i class="fa fa-heart-o pr5"></i>我的收藏</a></li>        
+              <li><a href="#"><i class="fa fa-shopping-cart pr5"></i>购物车 0 件商品&nbsp￥0</a></li>    
+           </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img alt="Brand" src="images/logo.png">
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a> <span>/</span></li>
+              <li><a href="products_list.html">Products</a><span>/</span></li>
+              <li><a href="#">Made By</a><span>/</span></li>
+              <li><a data-toggle="modal"  data-target=".bs-example-modal-lg" href="#">Login</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search Product">
+              </div>
+              <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+<!--   header end -->
+<!-- 路径导航 -->
+   <div class="path-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p>USER CENTER</p>
+        </div>
+        <div class="col-md-4 col-md-offset-5">
+          <ul class="l-breadcrumb">
+            <li><a href="#">HOME</a><i class="fa fa-angle-right"></i></li>
+            <li>USER CENTER</li>
+          </ul>
+        </div>
+      </div>
+   </div>
+  </div>
+<!-- 路径导航 end -->
+<div class="main container">
+  <div class="row usercen-body">
+     <div class="col-md-3 slide">
+        <form class="form-inline">
+          <div class="form-group">
+            <div class="input-group product-search">
+              <input type="text" class="form-control" placeholder="Search">
+              <div class="input-group-addon">
+                 <button type="submit" class="product-search-btn"><i class="fa fa-search"></i></button>
+              </div>
+            </div>
+          </div>
+        </form>
+        <h3>MY INFORMATION</h3>
+        <div class="list-group">
+          <a href="#" class="list-group-item"> <i class="fa fa-angle-right"></i>My purchases are for
+          </a>
+          <a href="#" class="list-group-item"> <i class="fa fa-angle-right"></i>My production</a>
+          <a href="#" class="list-group-item"> <i class="fa fa-angle-right"></i>My Product
+          </a>
+          <a href="#" class="list-group-item"> <i class="fa fa-angle-right"></i>My collection and attention</a>
+          <a href="#" class="list-group-item"> <i class="fa fa-angle-right"></i>My Account</a>
+        </div>
+      </div>
+    <div class="col-md-9">
+      <div class="use-r-info">
+        <img src="images/use-photo.jpg" alt="">
+        <p class="usename">USERNAME <a href="#"><i class="fa fa-pencil-square-o"></i></a></p>
+        <ul>
+          <li>作品数：<span>15</span></li>
+          <li>粉丝数：<span>15</span></li>
+          <li>商品数：<span>15</span></li>
+          <li>未付款：<span>15</span></li>
+        </ul>
+      </div>
+      <div class="use-r-shoplist">
+        <h2>SHOPPING LIST</h2>
+        <table class="table table-bordered">
+          <tr>
+          <th class="wp180">PRODUCT IMAGE</th>
+          <th class="wp300">PRODUCT NAME</th>
+          <th>PRICE</th>
+          <th></th>
+          </tr>
+          <tr>
+          <td><a href="#"><img src="#" alt=""></a></td>
+          <td>
+            <h3>DINING TABLE</h3>
+            <p>MANUFACTURER:<span>Tartaan&co</span></p>
+            <p>PRODUCTCODE:<span>Xu1052</span></p>
+            <p>COLOE:<span>Black</span></p>
+            <p>SIZE:<span>Queen</span></p>
+          </td>
+          <td>
+            <h3>
+              <s>$580</s>
+              <b>$420</b></h3>
+          </td>
+          <td><a class="butn" href="#">EDIT</a></td>
+          </tr>
+          <tr>
+          <td><a href="#"><img src="#" alt=""></a></td>
+          <td>
+            <h3>DINING TABLE</h3>
+            <p>MANUFACTURER:<span>Tartaan&co</span></p>
+            <p>PRODUCTCODE:<span>Xu1052</span></p>
+            <p>COLOE:<span>Black</span></p>
+            <p>SIZE:<span>Queen</span></p>
+          </td>
+          <td>
+            <h3><b>$420</b></h3>
+          </td>
+          <td><a class="butn" href="#">EDIT</a></td>
+          </tr>
+        </table>
+      </div>
+     <div class="use-r-worklist">
+        <h2>WORKLIST LIST</h2>
+        <p>制作自己的商品吧</p>
+     </div>
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+  <div class="footer ">
+    <div class="foot-share-wrap">
+     <div class="foot-share container">
+       <ul>
+         <li><a href="#"><i class="fa fa-dribbble "></i></a></li>
+         <li><a href="#"><i class="fa fa-google-plus "></i></a></li>
+         <li><a href="#"><i class="fa fa-tumblr "></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter "></i></a></li>
+         <li><a href="#"><i class="fa fa-facebook "></i></a></li>
+       </ul>
+       <div>FOLLOW US</div>
+     </div>
+     <div class="foot-mid container">
+       <div class="row">
+          <div class="foot-mid-left col-md-4">
+            <h2><a href=""><img src="images/logo.png" alt=""></a></h2>
+            <p>
+              ２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。
+              <br>詩の朗読と言うと少し退屈に聞こえるかもしれませんが
+            </p>
+          </div>
+          <div class="foot-mid-right col-md-2 col-md-offset-2">
+            <h2>MY ACCOUNT</h2>
+            <ul>
+              <li><a href="#">アート</a></li>
+              <li><a href="#">プロダクト</a></li>
+              <li><a href="#">ジャーナリズム</a></li>
+              <li><a href="#">写真</a></li>
+            </ul>
+          </div>
+          <div class="foot-mid-right col-md-2">
+            <h2>MY ACCOUNT</h2>
+            <ul>
+              <li><a href="#">本·漫画</a></li>
+              <li><a href="#">パフォーマンス</a></li>
+              <li><a href="#">ジャーナリズム</a></li>
+              <li><a href="#">コミュニティ</a></li>
+            </ul>
+          </div>
+          <div class="foot-mid-right col-md-2">
+            <h2>CONTACT</h2>
+            <ul>
+              <li><a href="#">本·漫画</a></li>
+              <li><a href="#">パフォーマンス</a></li>
+              <li><a href="#">ジャーナリズム</a></li>
+              <li><a href="#">コミュニティ</a></li>
+            </ul>
+          </div>
+       </div>
+     </div>
+     <div class="foot-bottom">
+       <p class="container">Copyright &copy 2014<a href="index.html">痛部屋</a>All Rights Reserved</p>
+     </div>
+   </div>
+  </div>
+<!--   footer end -->
+
+
+<!-- 登陆模态框 -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+        <h4 class="modal-title" id="exampleModalLabel"><span>LOGIN</span>
+          <img src="images/login-img.png" alt="">
+        </h4>
+      </div>
+      <div class="row">
+        <div class="col-md-6 login-left">
+          <form>
+            <div class="form-group">
+              <label for="userid">USERNAME</label>
+              <input type="email" class="form-control" id="userid" placeholder="Enter You Name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">PASSWORD</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="third-login">
+              <a href="#"><i class="fa fa-facebook-square cr3b5"></i></a>
+              <a href="#"><i class="fa fa-twitter-square cr00b"></i></a>
+            </div>
+            <button type="submit" class="btn btn-default">LOGIN</button>
+          </form>
+        </div>
+        <div class="col-md-6 login-right">
+          <h2>还不是痛部屋用户？</h2>
+          <p>现在立即注册痛部屋用户，便能立刻享受个性十足的定制乐趣</p>
+          <button type="submit" class="btn btn-default">SIGN UP</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- 登陆模态框end -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

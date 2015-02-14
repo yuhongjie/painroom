@@ -1,0 +1,134 @@
+.usercen-body {
+    margin-top: 60px;
+}
+
+/* usecenter right */
+.use-r-info {
+    position: relative;
+    height: 150px;
+}
+.use-r-info img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width:130px;
+    height:130px;
+    border:1px;
+    border-radius:8px;
+    background-color:#D0D0D0 ;
+}
+.use-r-info p {
+    position: absolute;
+    text-align: left;
+    top: 50px;
+    left: 163px;
+    color: #EC5D3C;
+}
+.use-r-info p a {
+    margin-left: 10px;
+    color: #959595;
+}
+.use-r-info ul {
+    position: absolute;
+    z-index: 1;
+    bottom: -10px;
+    width: 100%;
+    height: 67px;
+    background-color:#EEEEEE ;
+}
+.use-r-info ul li:first-child {
+    margin-left:180px ;
+}
+.use-r-info ul li {
+    float: left;
+    margin-top: 9px;
+    margin-right:10px; 
+    padding: 15px;
+    border:1px;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: 微软雅黑;
+    color: #757575;
+}
+.use-r-info ul li span {
+    color:#FF7555;
+}
+
+.use-r-shoplist {
+    
+}
+.use-r-shoplist h2,.use-r-worklist h2 {
+    margin-top: 60px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 19px;
+    color: #222222;
+}
+.use-r-shoplist table {
+
+}
+.use-r-shoplist table tr th {
+    height: 55px;
+    border:none;
+    background-color:#F6F6F6;
+    line-height: 37px;
+}
+.use-r-shoplist table tr td {
+    height: 180px;
+    border-left: none;
+    border-right: none;
+    text-align: left;
+}
+.use-r-shoplist table tr td a img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: #D0D0D0;
+}
+.use-r-shoplist table tr td h3 {
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.use-r-shoplist table tr td p {
+    font-size: 12px;
+}
+.use-r-shoplist table tr td p span {
+    color:#5D5D5D;
+    padding: 0 10px;
+}
+.use-r-shoplist table tr td h3 b {
+    display: block;
+    font-size: 16px;
+}
+.use-r-shoplist table tr td h3 s {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #878787;
+}
+.use-r-shoplist table tr td a.butn {
+    display: inline-block;
+    border:2px solid #EC5D3C;
+    margin-top: 40px;
+    margin-left: 60px;
+    padding: 11px 35px;
+    color: black;
+}
+.use-r-shoplist table tr td a.butn:hover {
+    text-decoration: none;
+}
+.use-r-worklist {
+    margin-bottom: 200px;
+}
+.use-r-worklist p {
+    text-align: left;
+    font-family: 微软雅黑;
+    font-size: 16px;
+}
+
+
+

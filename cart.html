@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>痛部屋</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/base.css" rel="stylesheet">
+    <link href="css/module.css" rel="stylesheet">
+    <link href="css/cart.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <div class="header ">
+    <div class="header-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 welcome">欢迎光临 痛部屋</div>
+          <div class="col-xs-6">
+            <ul>
+              <li class="home-top-acco"><a href="#"><i class="fa fa-user pr5"></i>我的账户</a></li>     
+              <li class="home-top-myfav"><a href="#"><i class="fa fa-heart-o pr5"></i>我的收藏</a></li>        
+              <li><a href="#"><i class="fa fa-shopping-cart pr5"></i>购物车 0 件商品&nbsp￥0</a></li>    
+           </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom container">
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img alt="Brand" src="images/logo.png">
+            </a>
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="index.html">Home</a> <span>/</span></li>
+              <li><a href="products_list.html">Products</a><span>/</span></li>
+              <li><a href="#">Made By</a><span>/</span></li>
+              <li><a data-toggle="modal"  data-target=".bs-example-modal-lg" href="#">Login</a></li>
+            </ul>
+            <form class="navbar-form navbar-right" role="search">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search Product">
+              </div>
+              <button type="submit" class="btn btn-default"><i class="fa fa-search"></i></button>
+            </form>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+<!--   header end -->
+<!-- 路径导航 -->
+   <div class="path-nav">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <p>CART</p>
+        </div>
+        <div class="col-md-4 col-md-offset-5">
+          <ul class="l-breadcrumb">
+            <li><a href="#">HOME</a><i class="fa fa-angle-right"></i></li>
+            <li>CART</li>
+          </ul>
+        </div>
+      </div>
+   </div>
+  </div>
+<!-- 路径导航 end -->
+<div class="main container">
+  <div class="cart-body">
+    <h2>SHOPPING CART</h2>
+    <table class="table table-bordered">
+      <tr>
+      <th class="wp140">PRODUCT IMAGE</th>
+      <th class="tl">PRODUCT NAME</th>
+      <th class="wp70">EDIT</th>
+      <th class="wp70">PRICE</th>
+      <th class="wp100">QUANTITY</th>
+      <th class="wp70">TOTAL</th> 
+      <th class="wp100">REMOVE</th>
+      </tr>
+      <tr>
+      <td><a href="#"><img src="#" alt=""></a></td>
+      <td class="tl pl20">
+        <h3>DINING TABLE</h3>
+        <p>MANUFACTURER:<span>Tartaan&co</span></p>
+        <p>PRODUCTCODE:<span>Xu1052</span></p>
+        <p>COLOE:<span>Black</span></p>
+        <p>SIZE:<span>Queen</span></p>
+      </td>
+      <td><a class="butn" href="#"><i class="fa fa-pencil-square-o"></i></a></td>
+      <td>
+        <h3>
+          <s>$580</s>
+          <b>$420</b></h3>
+      </td>
+      <td>
+        <div class="product-count">
+          <div class="p-c-left">
+            <input id="text_box" name="" type="text" value="2" />
+          </div>
+          <div class="p-c-right">
+            <a id="add" href="javascript:void(0);"><i class="fa fa-chevron-up"></i></a>
+            <a id="min" href="javascript:void(0);"><i class="fa fa-chevron-down"></i></a>
+          </div>
+        </div>
+      </td>
+      <td><h3><b  id="oneprice">$840</b></h3></td>
+      <td><a class="butn" href="#"><i class="fa fa-trash-o"></i></a></td>
+      </tr>
+      <tr>
+      <td><a href="javascript:void(0);"><img src="#" alt=""></a></td>
+      <td class="tl pl20">
+        <h3>DINING TABLE</h3>
+        <p>MANUFACTURER:<span>Tartaan&co</span></p>
+        <p>PRODUCTCODE:<span>Xu1052</span></p>
+        <p>
+          COLOE:<span>Black</span></p>
+        <p>SIZE:<span>Queen</span></p>
+      </td>
+      <td><a class="butn tc" href="#"><i class="fa fa-pencil-square-o"></i></a></td>
+      <td>
+        <h3><b>$420</b></h3>
+      </td>
+      <td>
+        <div class="product-count">
+          <div class="p-c-left">
+            <input id="text_box" name="" type="text" value="1" />
+          </div>
+          <div class="p-c-right">
+            <a id="min" href="javascript:void(0);"><i class="fa fa-chevron-up"></i></a>
+            <a id="add" href="javascript:void(0);"><i class="fa fa-chevron-down"></i></a>
+          </div>
+        </div>
+      </td>
+      <td><h3><b>$420</b></h3></td>
+      <td><a class="butn" href="#"><i class="fa fa-trash-o"></i></a></td>
+      </tr>
+      <tr>
+        <td colspan="7" class="tab-bottom-butn h90 bcrf6f6">
+          <div class="row">
+            <div class="col-md-7 left-btn">
+              <a href="javascript:void(0);">CONTINUE SHOPPING</a>
+            </div>
+            <div class="col-md-5 right-btn">
+            <a href="">CLEAR SHOPPING CART</a>
+            <a href="">UPDATE SHOPPING CART</a>
+          </div>
+          </div>
+         
+        </td> 
+      </tr>
+    </table>
+    <div class="conf-box">
+      <h3>SUBTOTAL<span>$1260</span></h3>
+      <h4>GRAND TOTAL<span> $1260</span></h4>
+      <a href="">PROCEED TO CHECKOUT</a>
+      <p>Checkout  with multiple addresses</p>
+      
+    </div>
+  </div>
+</div>
+
+<!-- footer -->
+  <div class="footer ">
+    <div class="foot-share-wrap">
+     <div class="foot-share container">
+       <ul>
+         <li><a href="javascript:void(0);"><i class="fa fa-dribbble "></i></a></li>
+         <li><a href="javascript:void(0);"><i class="fa fa-google-plus "></i></a></li>
+         <li><a href="javascript:void(0);"><i class="fa fa-tumblr "></i></a></li>
+         <li><a href="javascript:void(0);"><i class="fa fa-twitter "></i></a></li>
+         <li><a href="javascript:void(0);"><i class="fa fa-facebook "></i></a></li>
+       </ul>
+       <div>FOLLOW US</div>
+     </div>
+     <div class="foot-mid container">
+       <div class="row">
+          <div class="foot-mid-left col-md-4">
+            <h2><a href=""><img src="images/logo.png" alt=""></a></h2>
+            <p>
+              ２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。
+              <br>詩の朗読と言うと少し退屈に聞こえるかもしれませんが
+            </p>
+          </div>
+          <div class="foot-mid-right col-md-2 col-md-offset-2">
+            <h2>MY ACCOUNT</h2>
+            <ul>
+              <li><a href="#">アート</a></li>
+              <li><a href="#">プロダクト</a></li>
+              <li><a href="#">ジャーナリズム</a></li>
+              <li><a href="#">写真</a></li>
+            </ul>
+          </div>
+          <div class="foot-mid-right col-md-2">
+            <h2>MY ACCOUNT</h2>
+            <ul>
+              <li><a href="#">本·漫画</a></li>
+              <li><a href="#">パフォーマンス</a></li>
+              <li><a href="#">ジャーナリズム</a></li>
+              <li><a href="#">コミュニティ</a></li>
+            </ul>
+          </div>
+          <div class="foot-mid-right col-md-2">
+            <h2>CONTACT</h2>
+            <ul>
+              <li><a href="#">本·漫画</a></li>
+              <li><a href="#">パフォーマンス</a></li>
+              <li><a href="#">ジャーナリズム</a></li>
+              <li><a href="#">コミュニティ</a></li>
+            </ul>
+          </div>
+       </div>
+     </div>
+     <div class="foot-bottom">
+       <p class="container">Copyright &copy 2014<a href="index.html">痛部屋</a>All Rights Reserved</p>
+     </div>
+   </div>
+  </div>
+<!--   footer end -->
+
+
+<!-- 登陆模态框 -->
+<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+        <h4 class="modal-title" id="exampleModalLabel"><span>LOGIN</span>
+          <img src="images/login-img.png" alt="">
+        </h4>
+      </div>
+      <div class="row">
+        <div class="col-md-6 login-left">
+          <form>
+            <div class="form-group">
+              <label for="userid">USERNAME</label>
+              <input type="email" class="form-control" id="userid" placeholder="Enter You Name">
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">PASSWORD</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            </div>
+            <div class="third-login">
+              <a href="#"><i class="fa fa-facebook-square cr3b5"></i></a>
+              <a href="#"><i class="fa fa-twitter-square cr00b"></i></a>
+            </div>
+            <button type="submit" class="btn btn-default">LOGIN</button>
+          </form>
+        </div>
+        <div class="col-md-6 login-right">
+          <h2>还不是痛部屋用户？</h2>
+          <p>现在立即注册痛部屋用户，便能立刻享受个性十足的定制乐趣</p>
+          <button type="submit" class="btn btn-default">SIGN UP</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <!-- 登陆模态框end -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-2.1.1/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- 购物车计数 -->
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(function(){
+      //获得文本框对象
+      var t = $("#text_box"); 
+      //数量增加操作
+      $("#add").click(function(){   
+        t.val(parseInt(t.val())+1)
+        if (parseInt(t.val())!=1){
+          $('#min').attr('disabled',false);
+        }
+        setTotal();
+      })  
+      //数量减少操作
+      $("#min").click(function(){
+        t.val(parseInt(t.val())-1);
+        if (parseInt(t.val())==1){
+          $('#min').attr('disabled',true);
+        }
+        setTotal();
+      })
+      //计算操作
+      function setTotal(){
+        $("#total").html((parseInt(t.val())*3.95).toFixed(2));//toFixed()是保留小数点的函数
+      } 
+      //初始化
+      setTotal();
+    })
+    });
+    </script>
+  </body>
+</html>

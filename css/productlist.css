@@ -1,0 +1,32 @@
+.pro-list-body {
+    padding-top: 60px;
+}
+/*产品排序*/
+.pro-rank ul {
+	width: 300px;
+	height: 40px;
+	margin-bottom: 15px;
+	float: right;
+}
+.pro-rank ul li {
+	float: right;
+}
+.pro-rank ul li a {
+	display: inline-block;
+	width: 60px;
+	border:1px solid #D0D0D0;
+	color: black;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	background-color: #F8F8F8;
+	padding: 5px;
+}
+.pro-rank ul li a:hover ,.pro-rank ul li a.currt {
+	text-decoration: none;
+	color: #fff;
+	background-color: #FF7555;
+}
+
+
+
+

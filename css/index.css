@@ -1,0 +1,178 @@
+.banner .carousel {
+	height: 400px;
+	background-color: #ECECEC;
+}
+.banner .carousel img {
+	width: 100%;
+	height: 400px;
+}
+.carousel-control.left {
+    background-image: none;
+}
+.carousel-control.right {
+    background-image: none;
+}
+.homehall {
+	height: 405px;
+	margin-top: 60px;
+}
+.homehall-left {
+	
+}
+.homehall-left .left-cont {
+	background: url(../images/imgexp.png) no-repeat;
+	background-size:263px 405px;
+}
+.homehall-mid {
+	height: 400px;
+}
+.homehall-right {
+	
+}
+.homehall-right h2 {
+	margin-top: 0;
+	margin-bottom: 25px;
+	padding-top: 0;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	text-align: left;
+	border-bottom: 1px solid #B7B7B7;
+}
+.homehall-right li a img {
+	width:85px ;
+	height:85px ;
+	float: left;
+	margin-right: 15px;
+	background-color: #ECECEC;
+
+}
+.homehall-right li h3 {
+	font-size: 16px;
+	font-weight: bolder;
+	color: #FF7555;
+}
+.homehall-right li p a {
+	font-size: 14px;
+	color: #646464;
+}
+.homehall-right li p a:hover {
+	text-decoration: none;
+}
+.homehall-left .left-cont {
+	/* width: 300px; */
+	height: 405px;
+	background-color:#ECECEC ;
+}
+.homehall-right .list-group-item:first-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.homehall-right .list-group-item:last-child {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.homehall-right .list-group-item {
+    position: relative;
+    display: block;
+    height: 90px;
+    padding: 0 ;
+    margin-bottom: 30px;
+    background-color: #FFF;
+    text-align: left;
+    border: 1px solid transparent!important ;
+}
+.home-hide { position:relative;
+	width:260px; 
+	height:346px; 
+	margin:0 auto;
+}
+.home-hide a,.home-hide span,.home-hide h3 {
+	display:none; 
+	text-decoration:none;
+}
+.home-hide:hover {cursor:pointer}
+.home-hide:hover a.now {
+	cursor:pointer; 
+	position:absolute; 
+	top:0;
+	width:100%; 
+	height:100%; 
+	z-index:100; 
+	left:0; 
+	display:block;
+}
+.home-hide:hover span { 
+	display:block;
+	position:absolute;
+	top: 204px;
+	left:0;
+	color:#FF7555;
+	width:260px; 
+	height: 60px;
+	z-index:10;
+	line-height:36px; 
+	filter:alpha(opacity=60);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	font-size: 26px;
+	font-weight: bold;
+	background: #fff url(../images/line.jpg) 0 45px repeat-x;
+}
+.home-hide:hover h3 {
+	display:block;
+	position:absolute;
+	top:110px; 
+	left:0;
+	color:#FF7555;
+	width:260px;
+	height: 94px; 
+	padding-top: 20px;
+	z-index:10;
+	line-height:85px; 
+	/*background:#fff;*/
+	filter:alpha(opacity=60);
+	-moz-opacity:0.7;
+	opacity: 0.7;
+	font-size: 48px;
+	font-weight: bold;
+	font-family: 黑体;
+	background: #fff url(../images/line.jpg) 0 15px repeat-x;
+}
+
+
+/*flinks*/
+.flinks {
+	margin-top: 65px;
+	margin-bottom: 100px;
+}
+
+.picScroll-left{
+ width:100%; 
+ overflow:hidden;  
+}
+.picScroll-left .hd{
+	overflow: hidden;
+	height: 30px;
+	padding: 0 10px;
+	position: absolute;
+	width: 100%;
+	top: -14px; 
+}
+.picScroll-left .hd .prev,.picScroll-left .hd .next{ display:block;  width:32px; height:32px; float:right; margin-right:5px; overflow:hidden;
+	 cursor:pointer; background:url("../images/arrow.png") no-repeat;}
+.picScroll-left .hd .next{ background-position:-40px 0;  }
+.picScroll-left .hd .prevStop{ background-position:-60px 0; }
+.picScroll-left .hd .nextStop{ background-position:-60px -50px; }
+.picScroll-left .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px; zoom:1; }
+.picScroll-left .hd ul li{ float:left;  width:9px; height:9px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer; background:url("../images/icoCircle.gif") 0 -9px no-repeat; }
+.picScroll-left .hd ul li.on{ background-position:0 0; }
+.picScroll-left .bd ul{ overflow:hidden; zoom:1; }
+.picScroll-left .bd ul li{ margin:0 8px; float:left; display:inline; overflow:hidden; text-align:center;  }
+.picScroll-left .bd ul li .pic{ text-align:center; }
+.picScroll-left .bd ul li .pic img{ width:100px; height:100px;margin-left:8px;margin-right: 75px; display:block;  padding:2px; }
+.picScroll-left .bd ul li .title{ line-height:24px;   }
+
+
+

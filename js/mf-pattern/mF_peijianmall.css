@@ -1,0 +1,75 @@
+/*=========mF_peijianmall========*/
+.mF_peijianmall{ position:relative;}
+.mF_peijianmall .loading{ position:absolute; width:100%; height:100%; background:#fff url(img/loading.gif) center no-repeat; z-index:9;}
+.mF_peijianmall .pic ul{position:absolute;}
+.mF_peijianmall .pic ul li{overflow:hidden;}
+.mF_peijianmall .pic ul.left li{float:left;}
+.mF_peijianmall .pic ul.right li{float:right;}
+.mF_peijianmall .txt ul {
+	margin-left: 44px;
+}
+.mF_peijianmall .txt{
+	position:absolute;
+	z-index:2;
+	left:0;
+	bottom:-5px;
+	width: 550px;
+	height: 162px;
+	background-color: #FF7556;
+}
+.mF_peijianmall .txt li{
+	float:left; 
+	position:relative;
+	margin-left:30px;
+	margin-top: 18px;
+	padding-top: 15px;
+	padding-left: 15px;
+	height:120px;
+	width:115px;
+	overflow:hidden;
+	cursor:pointer;
+	/* border:1px solid #f90; */
+	/* border-radius:3px; */
+}
+/* .mF_peijianmall .txt li b{background:#FBF6DC; width:100%; height:100%; opacity:0.8; filter:alpha(opacity=80); position:absolute; top:0;-webkit-transition:color 0.4s;-moz-transition:color 0.4s;-o-transition:color 0.4s; } */
+.mF_peijianmall .txt li a{ 
+	width: 41px;
+	display:block;
+	color:#fff;
+	text-decoration:none; 
+	position:relative; 
+	z-index:1;
+	font-size: 35px;
+	font-family: 微软雅黑;
+	font-weight: bold;
+	padding-left: 15px;
+	line-height: 35px;
+	-webkit-transition:color 0.4s;
+	-moz-transition:color 0.4s;
+	-o-transition:color 0.4s;
+}
+.mF_peijianmall .txt li.current{border:1px dotted #fff;}
+.mF_peijianmall .txt li.current b{background:#FB7917;}
+.mF_peijianmall .txt li.current a{color:#fff;}
+.mF_peijianmall .txt li p { 
+	position: absolute;
+	width: 120px;
+	top: 70px;
+	left: 16px;
+	color: #fff;
+	font-size: 13px;
+	text-align: left;
+	-webkit-transform: rotate(90deg);
+	transform:rotate(90deg);
+	-ms-transform:rotate(90deg); 	/* IE 9 */
+	-moz-transform:rotate(90deg); 	/* Firefox */
+	-webkit-transform:rotate(90deg); /* Safari 和 Chrome */
+	-o-transform:rotate(90deg); 	/* Opera */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+
+.mF_peijianmall_sorted_box {
+	height: 400px;
+	text-align: center;
+	background: #fff;
+}

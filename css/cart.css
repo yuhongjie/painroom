@@ -1,0 +1,138 @@
+.cart-body {
+    margin-top: 60px;
+}
+.cart-body h2 {
+	margin-top: 90px;
+    margin-bottom: 35px;
+    text-align: left;
+    font-size: 19px;
+    font-weight: bolder;
+    color: #222222;
+}
+.cart-body table {
+
+}
+.cart-body table tr th {
+    height: 55px;
+    background-color:#F6F6F6;
+    line-height: 37px;
+    text-align: center;
+}
+.cart-body table tr td {
+    height: 180px;
+}
+.cart-body table tr td a img {
+    display: block;
+    width: 120px;
+    height: 120px;
+    margin-top: 20px;
+    margin-left: 12px;
+    margin-right: 12px;
+    background-color: #D0D0D0;  
+}
+.cart-body table tr td h3 {
+    margin-top: 15px;
+    font-size: 13px;
+    font-weight: bolder;
+}
+.cart-body table tr td p {
+    font-size: 12px;
+}
+.cart-body table tr td p span {
+    color:#5D5D5D;
+    padding: 0 10px;
+}
+.cart-body table tr td h3 b {
+    display: block;
+    font-size: 16px;
+}
+.cart-body table tr td h3 s {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #878787;
+}
+.cart-body table tr td a.butn {
+   display: inline-block;
+   margin-top: 15px;
+   /*margin-left: 7px;*/
+   padding: 10px 14px;
+   font-size: 20px;
+   color: #fff;
+   background-color: #FF7555;
+}
+.cart-body table tr td a.butn:hover {
+    text-decoration: none;
+}
+.tab-bottom-butn {
+	margin: -8px;
+	border:none;
+	height: 80px;
+	background-color: #F6F6F6;
+	font-size: 14px;
+	font-weight: bolder;
+	text-align: left;
+}
+.tab-bottom-butn a {
+	background-color: #fff;
+}
+.tab-bottom-butn .left-btn a {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding: 10px 16px;
+	border:1px solid #FF7555;
+	color: #FF7555;
+}
+.tab-bottom-butn .right-btn a {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 15px;
+	padding: 10px 16px;
+	border:1px solid #EAEBEF;
+	color: #777777;
+}
+.tab-bottom-butn a:hover {
+	text-decoration: none!important;
+}
+.conf-box {
+	width:370px ;
+	height:210px ;
+	float: right;
+	margin-bottom: 100px;
+	padding-right: 50px;
+	background-color:#F8F8F8 ;
+	text-align: right;
+	font-size: 14px!important;
+}
+.conf-box h3 {
+	margin-top: 26px;
+	color: #777777;
+}
+.conf-box h4 {
+	margin-top: 15px;
+	font-size: 16px;
+	color: black;
+}
+.conf-box h3 span {
+	padding-left: 50px;
+}
+.conf-box h4 span {
+	padding-left: 45px;
+}
+.conf-box a {
+	display: inline-block;
+	margin-left: 10px;
+	margin-top: 20px;
+	padding: 6px 25px;
+	border:1px solid #FF7555;
+	color: #FF7555;
+	font-weight: bolder;
+}
+.conf-box a:hover {
+	text-decoration: none;
+}
+.conf-box p {
+	margin-top: 12px;
+	color: #777777;
+}
