@@ -32,11 +32,14 @@
 }
 .cart-body table tr td h3 {
     margin-top: 15px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bolder;
 }
+.cart-body table tr td h4 {
+	margin-top: 21px;
+}
 .cart-body table tr td p {
-    font-size: 12px;
+    font-size: 14px;
 }
 .cart-body table tr td p span {
     color:#5D5D5D;
@@ -93,7 +96,10 @@
 	color: #777777;
 }
 .tab-bottom-butn a:hover {
+	color: #fff;
 	text-decoration: none!important;
+	background-color: #FF7555;
+	border: 1px solid #FF7555;
 }
 .conf-box {
 	width:370px ;
@@ -131,6 +137,9 @@
 }
 .conf-box a:hover {
 	text-decoration: none;
+	color: #fff;
+	background-color: #FF7555;
+	border: 1px solid #FF7555;
 }
 .conf-box p {
 	margin-top: 12px;

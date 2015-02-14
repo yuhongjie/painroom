@@ -13,7 +13,7 @@
 	height: 52px;
 	background-color: #FF7555;
 	font-size: 14px;
-	font-family: 微软雅黑;
+	font-family: "冬青黑体简中文";
 }   
  .home-top-acco {
 	border-left: 1px solid #FFAC82;
@@ -45,7 +45,7 @@
 	padding: 0 15px;
 	line-height: 50px;
 	color: #fff!important;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bolder;
 }
 .header-top ul li a:hover {

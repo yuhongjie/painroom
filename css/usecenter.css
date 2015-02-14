@@ -115,9 +115,11 @@
     display: inline-block;
     border: 2px solid #EC5D3C;
     margin-top: 40px;
-    margin-left: 60px;
-    padding: 11px 35px;
+    padding: 9px 0px;
     color: black;
+    text-align: center;
+    float: right;
+    margin-right: 40px;
 }
 .use-r-shoplist table tr td a.butn:hover {
     text-decoration: none;
