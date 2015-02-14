@@ -221,6 +221,7 @@ hr {
 }
 .product-list h3 {
 	font-size: 14px;
+	margin-top: 10px;
 	font-weight: bolder;
 	font-family:"Myriad Pro";
 }
@@ -245,11 +246,10 @@ hr {
 }
 .product-list  .btn {
     display: inline-block;
-    padding: 7px 23px;
+    padding: 8px 24px 7px 24px;
     margin-bottom: 0px;
     font-size: 12px;
-    font-weight: 400;
-    line-height: 1.42857;
+    line-height: 1.42859;
     text-align: center;
     white-space: nowrap;
     vertical-align: middle;
@@ -263,7 +263,7 @@ hr {
 .product-list .btn:hover {
 	background-color:#FF7555 ;
 	color: #fff;
-	border: none;
+	border: 2px solid #FF7555 ;
 }
 /* end-- */
 /* productlist hover style begin */
@@ -325,7 +325,7 @@ hr {
 .path-nav p {
 	float: left;
 	line-height: 49px;
-	font-size: 14px;
+	font-size: 18px;
 	font-weight: bolder;
 	color: #fff;
 }
@@ -385,14 +385,13 @@ hr {
 .slide h3 {
     margin-top: 22px;
     font-size: 20px;
-    font-family: 微软雅黑;
+    font-family: "Montserrat",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 }
 .slide h2 {
     margin-top: 22px;
-    margin-bottom: 15px;
     font-size: 24px;
     color: #FF7555;
-    font-family: "微软雅黑" ;
+    font-family:"Myriad Pro",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 }
 .slide .list-group a {
     padding-left: 0;

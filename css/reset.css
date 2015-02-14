@@ -23,7 +23,8 @@ body{
 	height:100%;
 	text-align:center;
 	color:#404040;
-    font:12px/1.5 Helvetica,arial;
+    font: 12px/1.5 Montserrat,'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+    /*font:12px/1.5 Helvetica,arial;*/
 }
 h1,h2,h3,h4,h5,h6,p,figure,form{
     margin:0;
