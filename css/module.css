@@ -483,31 +483,41 @@ hr {
 /*登陆框end*/
 
 /*产品计数插件style*/
+/*产品计数插件style*/
 .product-count {
+	position: relative;
 	margin:20px 8px;
 	height: 38px;
+	border: 1px solid #E9EAEE;
 }
-.product-count .p-c-left input {
+.product-count input.text_box {
 	width: 48px;
-	height: 38px;
+	height: 37px;
 	float: left;
 	text-align: center;
-	border:1px solid #E9EAEE;
+	border: none;
+	border-bottom: 1px solid #E9EAEE;
 }
-.product-count .p-c-right {
-	float: left;
+.product-count a {
+	border-left: 1px solid #E9EAEE;
+	display: inline-block;
 	margin-left: -1px;
 	width: 18px;
-	height: 38px;
-	border:1px solid #E9EAEE;
+	color: #838383;
 }
-.product-count .p-c-right a {
-	height: 10px;
-	color: #777777;
+.product-count a.min {
+	 
 }
-.product-count .p-c-right a:hover {
-	color: #FF7555;
+.product-count a.add {
+	margin-top: 1px; 
 }
+
+.product-count a:hover {
+	color: #FF7555
+}
+
+
+/*end产品计数插件style*/
 /*end产品计数插件style*/
 
 /*禁止响应*/

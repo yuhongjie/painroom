@@ -118,7 +118,7 @@ body{
   z-index:100;
   position:absolute;
   top:1px !important;
-  left:-200px !important;
+  left:700px !important;
   width:400px !important;
   height:400px !important;
   background:url(i/loading.gif) #fff no-repeat center center;
