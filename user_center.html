@@ -24,12 +24,12 @@
     <div class="header-top">
       <div class="container">
         <div class="row">
-          <div class="col-xs-6 welcome">欢迎光临 痛部屋</div>
-          <div class="col-xs-6">
+          <div class="col-lg-6 welcome fl">欢迎光临 痛部屋</div>
+          <div class="col-lg-6 fl">
             <ul>
               <li class="home-top-acco"><a href="#"><i class="fa fa-user pr5"></i>我的账户</a></li>     
               <li class="home-top-myfav"><a href="#"><i class="fa fa-heart-o pr5"></i>我的收藏</a></li>        
-              <li><a href="#"><i class="fa fa-shopping-cart pr5"></i>购物车 0 件商品&nbsp￥0</a></li>    
+              <li><a href="cart.html"><i class="fa fa-shopping-cart pr5"></i>购物车 0 件商品&nbsp￥0</a></li>    
            </ul>
           </div>
         </div>
@@ -128,9 +128,10 @@
         <table class="table table-bordered">
           <tr>
           <th class="wp180">PRODUCT IMAGE</th>
-          <th class="wp300">PRODUCT NAME</th>
+          <th class="wp200">PRODUCT NAME</th>
           <th>PRICE</th>
-          <th></th>
+          <th class="wp180">ORDER STATUS</th>
+          <th class="wp100"></th>
           </tr>
           <tr>
           <td><a href="#"><img src="#" alt=""></a></td>
@@ -146,7 +147,12 @@
               <s>$580</s>
               <b>$420</b></h3>
           </td>
-          <td><a class="butn" href="#">EDIT</a></td>
+          <td>
+            <h3>
+            ACCOUNT PAID
+            </h3>
+          </td>
+          <td><a class="butn" href="#">DELETE</a></td>
           </tr>
           <tr>
           <td><a href="#"><img src="#" alt=""></a></td>
@@ -160,7 +166,12 @@
           <td>
             <h3><b>$420</b></h3>
           </td>
-          <td><a class="butn" href="#">EDIT</a></td>
+          <td>
+            <h3>
+            ACCOUNT PAID
+            </h3>
+          </td>
+          <td><a class="butn" href="#">DELETE</a></td>
           </tr>
         </table>
       </div>
@@ -270,7 +281,7 @@
 </div>
  <!-- 登陆模态框end -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
