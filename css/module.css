@@ -203,7 +203,7 @@ hr {
 	width: 92%;
 	margin-left: 100px;
 	padding-right: 10px;
-	top: 6px;
+	top: 28px;
 }
 
 
@@ -213,7 +213,8 @@ hr {
 	padding-top: 10px;
 }
 .product-list h2 {
-	padding-bottom: 30px;
+	margin-top: 24px;
+	padding-bottom: 50px;
 	text-align: left;
 	font-family: "黑体";
 	font-size: 20px;
@@ -483,41 +484,31 @@ hr {
 /*登陆框end*/
 
 /*产品计数插件style*/
-/*产品计数插件style*/
 .product-count {
-	position: relative;
 	margin:20px 8px;
 	height: 38px;
-	border: 1px solid #E9EAEE;
 }
-.product-count input.text_box {
+.product-count .p-c-left input {
 	width: 48px;
-	height: 37px;
+	height: 38px;
 	float: left;
 	text-align: center;
-	border: none;
-	border-bottom: 1px solid #E9EAEE;
+	border:1px solid #E9EAEE;
 }
-.product-count a {
-	border-left: 1px solid #E9EAEE;
-	display: inline-block;
+.product-count .p-c-right {
+	float: left;
 	margin-left: -1px;
 	width: 18px;
-	color: #838383;
+	height: 38px;
+	border:1px solid #E9EAEE;
 }
-.product-count a.min {
-	 
+.product-count .p-c-right a {
+	height: 10px;
+	color: #777777;
 }
-.product-count a.add {
-	margin-top: 1px; 
+.product-count .p-c-right a:hover {
+	color: #FF7555;
 }
-
-.product-count a:hover {
-	color: #FF7555
-}
-
-
-/*end产品计数插件style*/
 /*end产品计数插件style*/
 
 /*禁止响应*/
