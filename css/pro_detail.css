@@ -10,12 +10,18 @@ body{
   margin-bottom: 100px;
 }
 .pro-detaile-bread-h4{
+  font-size: 18px;
   float: left;
   font-weight: bolder;
   margin-top: 16px !important;
 }
-
-
+.pro-detail-home{
+  color: #fff;
+  font-size: 14px;
+}
+.pro-detail-home:hover{
+  color: #ff7555;
+}
 #preview{ 
   float:none; 
   text-align:center; 
@@ -194,6 +200,9 @@ body{
   font-size: 22px;
   color: #707070;
 }
+.pro-price-old{
+  font-size: 22px;
+}
 .pro-price{
   font-size: 22px;
   color: #707070;
@@ -217,4 +226,52 @@ body{
 }
 .pro-heart:hover{
   color: red !important;
+}
+.pro-border{
+  border-radius: 0 !important;
+}
+.pro-center{
+  text-align: center !important;
+}
+.pro-latest-h{
+  font-weight: bold;
+  font-size: 24px;
+  font-family: "Montserrat",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+}
+.pro-latest-hr{
+  margin-top: 10px;
+  padding-right: 0 !important;
+  margin-left: auto !important;
+  position: inherit !important;
+  width: 100px !important;
+  text-align: center !important;
+  top: 0 !important;
+}
+.pro-latest-h2{
+  margin-top: -20px;
+}
+.pro-tab-border{
+  border: solid #dedede 1px ;
+}
+.pro-border-left{
+  border-left: none !important;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+color: #555;
+cursor: default;
+background-color: #fff;
+border: 1px solid #ddd;
+border-bottom-color: transparent;
+border-top-color: transparent;
+border-radius: 0;
+}
+/*detail*/
+.pro-intro-p{
+font-family:"Myriad Pro",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
+margin-left:16px;
+padding-top:15px; 
+padding-bottom:15px;
+}
+.pro-material{
+  padding-top: 0px !important;
 }
