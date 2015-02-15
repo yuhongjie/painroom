@@ -59,10 +59,12 @@
     
 }
 .use-r-shoplist h2,.use-r-worklist h2 {
-    margin-top: 60px;
+    font-weight: bold;
+    margin-top: 70px;
     margin-bottom: 35px;
     text-align: left;
-    font-size: 19px;
+    font-size: 24px;
+    font-family: "Montserrat",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
     color: #222222;
 }
 .use-r-shoplist table {
@@ -90,10 +92,11 @@
 }
 .use-r-shoplist table tr td h3 {
     margin-top: 15px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bolder;
 }
 .use-r-shoplist table tr td p {
+    font-family: "Montserrat",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
     font-size: 12px;
 }
 .use-r-shoplist table tr td p span {
@@ -102,7 +105,7 @@
 }
 .use-r-shoplist table tr td h3 b {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
 }
 .use-r-shoplist table tr td h3 s {
     display: block;
