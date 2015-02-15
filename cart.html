@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="ja" xml:lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -118,11 +118,15 @@
           <b>$420</b></h3>
       </td>
       <td>
-       <div class="product-count">
-         <input class="text_box" name="" type="text" value="1" />
-         <a class="add" type="button" href="javascript:void(0);"><i class="fa fa-chevron-up"></i></a>
-         <a class="min" type="button" href="javascript:void(0);"><i class="fa fa-chevron-down"></i></a> 
-       </div>
+        <div class="product-count">
+          <div class="p-c-left">
+            <input id="text_box" name="" type="text" value="2" />
+          </div>
+          <div class="p-c-right">
+            <a id="add" href="javascript:void(0);"><i class="fa fa-chevron-up"></i></a>
+            <a id="min" href="javascript:void(0);"><i class="fa fa-chevron-down"></i></a>
+          </div>
+        </div>
       </td>
       <td><h3><b  id="oneprice">$840</b></h3></td>
       <td><a class="butn" href="#"><i class="fa fa-trash-o"></i></a></td>
@@ -143,9 +147,13 @@
       </td>
       <td>
         <div class="product-count">
-          <input class="text_box" name="" type="text" value="1" />
-          <a class="add" type="button" href="javascript:void(0);"><i class="fa fa-chevron-up"></i></a>
-          <a class="min" type="button" href="javascript:void(0);"><i class="fa fa-chevron-down"></i></a> 
+          <div class="p-c-left">
+            <input id="text_box" name="" type="text" value="1" />
+          </div>
+          <div class="p-c-right">
+            <a id="min" href="javascript:void(0);"><i class="fa fa-chevron-up"></i></a>
+            <a id="add" href="javascript:void(0);"><i class="fa fa-chevron-down"></i></a>
+          </div>
         </div>
       </td>
       <td><h3><b>$420</b></h3></td>
@@ -278,35 +286,35 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- 购物车计数 -->
-
-    <script> 
-    $(function(){ 
-    $(".add").click(function(){ 
-    var t=$(this).parent().find('input[class*=text_box]'); 
-    t.val(parseInt(t.val())+1) 
-    setTotal(); 
-    }) 
-    $(".min").click(function(){ 
-    var t=$(this).parent().find('input[class*=text_box]'); 
-    t.val(parseInt(t.val())-1) 
-    if(parseInt(t.val())<0){ 
-    t.val(0); 
-    } 
-    setTotal(); 
-    
-    }) 
-    function setTotal(){ 
-    var s=0; 
-    $("#tab td").each(function(){ 
-    // s+=parseInt($(this).find('input[class*=text_box]').val())*parseFloat($(this).find('b[class*=price]').text()); 
-    }); 
-    // $("#total").html(s.toFixed(2)); 
-    // $("#total").html((parseInt(t.val())*420).toFixed(2));
-    } 
-    setTotal(); 
-
-    }) 
-    </script> 
-   
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(function(){
+      //获得文本框对象
+      var t = $("#text_box"); 
+      //数量增加操作
+      $("#add").click(function(){   
+        t.val(parseInt(t.val())+1)
+        if (parseInt(t.val())!=1){
+          $('#min').attr('disabled',false);
+        }
+        setTotal();
+      })  
+      //数量减少操作
+      $("#min").click(function(){
+        t.val(parseInt(t.val())-1);
+        if (parseInt(t.val())==1){
+          $('#min').attr('disabled',true);
+        }
+        setTotal();
+      })
+      //计算操作
+      function setTotal(){
+        $("#total").html((parseInt(t.val())*3.95).toFixed(2));//toFixed()是保留小数点的函数
+      } 
+      //初始化
+      setTotal();
+    })
+    });
+    </script>
   </body>
 </html>
