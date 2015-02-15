@@ -5,7 +5,7 @@
 	margin-top: 90px;
     margin-bottom: 35px;
     text-align: left;
-    font-size: 19px;
+    font-size: 24px;
     font-weight: bolder;
     color: #222222;
 }
@@ -16,7 +16,8 @@
     height: 55px;
     background-color:#F6F6F6;
     line-height: 37px;
-    text-align: center;
+    padding-left: 20px;
+    /*text-align: center;*/
 }
 .cart-body table tr td {
     height: 180px;
@@ -36,6 +37,9 @@
     font-weight: bolder;
 }
 .cart-body table tr td h4 {
+	text-align: left;
+	font-weight: bold;
+	padding-left: 20px;
 	margin-top: 21px;
 }
 .cart-body table tr td p {
@@ -47,7 +51,7 @@
 }
 .cart-body table tr td h3 b {
     display: block;
-    font-size: 16px;
+    font-size: 18px;
 }
 .cart-body table tr td h3 s {
     display: block;
@@ -102,6 +106,7 @@
 	border: 1px solid #FF7555;
 }
 .conf-box {
+	margin-top: 10px;
 	width:370px ;
 	height:210px ;
 	float: right;
