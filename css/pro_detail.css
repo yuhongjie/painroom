@@ -46,7 +46,6 @@ body{
 }
 .list-h li img:hover{
   border:solid 2px #4f9f5e !important;
-  /*padding: 7px !important;*/
 }
 #spec-n5{
   width:670px; 
@@ -156,11 +155,11 @@ body{
 #spec-list{ 
   position:relative; 
   width:633px; 
-  /*margin-right:6px;*/
+  margin-right:6px;
 }
 #spec-list div{ 
   margin-top:0;
-  /*margin-left:-30px; */
+  margin-left:-30px; 
   *margin-left:0;
 }
 
