@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 html,body,div,span,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,address,big,cite,code,del,em,font,img,ins,small,strong,var,b,u, i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend{margin:0;padding:0;}
-body{ background:#FFFFFF; color:#333333; font-family:"宋体",Arial,Lucida,Verdana,Helvetica,sans-serif; font-size:12px; line-height:150%; }
+body{ background:#FFFFFF; color:#333333; font-family:"宋体",Arial,Lucida,Verdana,Helvetica,sans-serif; line-height:150%; }
 a:link, a:visited{ color:#333333; text-decoration:none; }
 a:hover{ color:#CC0000; text-decoration:underline; }
 a:active{ color:#990000; }
@@ -66,10 +66,13 @@ ol, ul{ list-style: none outside none;}
 .spec-scroll .prev{float:left;margin-right:4px;}
 .spec-scroll .next{float:right;}
 .spec-scroll .prev,.spec-scroll .next{display:block;font-family:"宋体";text-align:center;width:10px;height:54px; line-height:54px;border:1px solid #CCC;background:#EBEBEB;cursor:pointer;text-decoration:none;}
-.spec-scroll .items{float:left;position:relative;width:322px;height:56px;overflow:hidden;}
-.spec-scroll .items ul{position:absolute;width:999999px;height:56px;}
-.spec-scroll .items ul li{float:left;width:64px;text-align:center;}
-.spec-scroll .items ul li img{border:1px solid #CCC;padding:2px;width:50px;height:50px;}
+.spec-scroll .items{float:left;position:relative;width:634px;height:114px;overflow:hidden;}
+.spec-scroll .items ul{position:absolute;width:999999px;height:114px;}
+.spec-scroll .items ul li{float:left;width:114px;text-align:center;margin-right: 16px;}
+.spec-scroll .items ul li img{border:1px solid #CCC;padding:2px;width:114px;height:114px;}
+.spec-scroll .items ul li img:hover{
+	border: 2px solid #258641 !important;
+}
 .spec-scroll .items ul li img:hover{border:2px solid #FF6600;padding:1px;}
 .spec-scroll ul li img{
 	padding: 7px !important;

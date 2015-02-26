@@ -14,24 +14,15 @@
     <link href="css/pro_detail.css" type="text/css" rel="stylesheet">
     <link href="css/productlist.css" rel="stylesheet">
     <link href="css/prodetail.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/lightbox.css">
      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/jquery.jqzoom.js"></script>
     <script type="text/javascript" src="js/prodetail.js"></script>
+    <script src="js/lightbox.js"></script>
     <!-- tab -->
-    <script>
-          $(function () {
-            $('#myTab a:last').tab('show')
-          })
-    </script>
-        <!-- lightbox -->
-   
-    <script type="text/javascript" src="js/prototype.js"></script>
-    <script type="text/javascript" src="js/scriptaculous.js?load=effects"></script>
-    <script type="text/javascript" src="js/lightbox.js"></script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -92,49 +83,51 @@
   </div>
   <!-- header end -->
 
-   <div>
+  <div>
     <div class="pro-detail-bread">
        <div class="container">
          <h4 class="pro-detaile-bread-h4">SINGLE PRODUCT</h4>
          <span></span>
-         <div class="fr p12" >
-           <a class="pro-detail-home" href="index.html">HOME</a>&nbsp;>
+         <div class="fr p16">
+           <a class="pro-detail-home" href="index.html">HOME</a>&nbsp;&gt;
            <span class="f14">SINGLE PRODUCT</span>
          </div>
        </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-xs-7 col-md-6" style="position: initial;">
-             <div id="preview" class="spec-preview"> 
-            <span class="jqzoom"><img jqimg="images/b1.jpg" src="images/s1.jpg" /></span> 
-          </div>
+        <div class="col-xs-7 col-md-6 pro-detail-l-position" >
+            <div id="preview" class="spec-preview"> 
+              <div class="jqzoom"><img jqimg="images/img01.jpg" src="images/img01.jpg" /></div> 
+            </div>
           <!--缩图开始-->
-          <div class="spec-scroll"> <a class="prev">&lt;</a> <a class="next">&gt;</a>
-            <div class="items">
-              <ul>
-                <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b3.jpg" src="images/s3.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b3.jpg" src="images/s3.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-                <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
+          <div class="spec-scroll pro-detail-l-width" > 
+             <a  class="prev pro-detail-l-pre"><i class="crfff pt8 fa fa-chevron-left pro-detail-l-pre-i"></i></a> 
+             <a  class="next pro-detail-l-next"><i class="fa crfff pt8 fa-chevron-right pro-detail-l-next-i"></i></a>
+            <div class="items mt30">
+              <ul class="pro-detail-l-ul">
+                <li><img alt="" bimg="images/img01.jpg" src="images/img01.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img02.jpg" src="images/img02.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img03.jpg" src="images/img03.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img04.jpg" src="images/img04.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img01.jpg" src="images/img01.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img02.jpg" src="images/img02.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img03.jpg" src="images/img03.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img04.jpg" src="images/img04.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img01.jpg" src="images/img01.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img02.jpg" src="images/img02.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img03.jpg" src="images/img03.jpg" onmousemove="preview(this);"></li>
+                <li><img alt="" bimg="images/img04.jpg" src="images/img04.jpg" onmousemove="preview(this);"></li>
               </ul>
             </div>
           </div>
     <!--缩图结束-->
         </div>
-        <div class="col-xs-5 col-md-6" style="padding-left:120px !important;">
+       <div class="col-xs-5 col-md-6 pro-detail-r-col">
           <h1 class="pro-title">『New globe』</h1>
-          <del class="pro-price fl pr10">$580</del> 
+          <del class="pro-price fl pr10 mt10">$580</del> 
           <h1 class="pro-price-old fl pr10 cr000">$420</h1>
-          <div class="" style="clear:both;"></div>
+          <div class="pro-detail-clear"></div>
           <div>
               <div class="rating fl">
                 <span>☆</span><span>☆</span>
@@ -152,56 +145,58 @@
                <a href="#">Add Your Review</a>
               </div>
           </div>
-          <div class="" style="clear:both;"></div>
-          <div class="form-horizontal mt30">
+          <div class="pro-detail-clear"></div>
+          <div class="form-horizontal mt20">
             <div class="form-group">
-              <label class="col-sm-4 control-label pro-control-label pro-col-sm-4">Manufacturer:</label>
-              <div class="col-sm-8">
-                <p class="form-control-static"> Tartaan & Co</p>
+              <label class="col-xs-4 control-label pro-control-label pro-col-sm-4 pro-material">Manufacturer:</label>
+              <div class="col-xs-8">
+                <p class="form-control-static pro-material"> Tartaan &amp; Co</p>
               </div>
-                <label class="col-sm-4 control-label pro-control-label pro-col-sm-4">Availability:</label>
-                <div class="col-sm-8">
-                  <p class="form-control-static">In Stock 20 Item(s)</p>
+                <label class="col-xs-4 control-label pro-control-label pro-col-sm-4 pro-material">Availability:</label>
+                <div class="col-xs-8">
+                  <p class="form-control-static pro-material">In Stock 20 Item(s)</p>
                 </div>
-                 <label class="col-sm-4 control-label pro-control-label pro-col-sm-4">Product Code:</label>
-                <div class="col-sm-8">
-                  <p class="form-control-static">Xuo15</p>
+                 <label class="col-xs-4 control-label pro-control-label pro-col-sm-4 pro-material">Product Code:</label>
+                <div class="col-xs-8">
+                  <p class="form-control-static pro-material">Xuo15</p>
                 </div>
-                <div class="" style="clear:both;"></div>
-                <div style="margin-left:14px; border-top:#ccc solid 1px;margin-top:26px; margin-bottom:10px;"></div>
+                <div class="pro-detail-clear"></div>
+                <div class="pro-detail--r-material"></div>
                 <div>
-                  <p style="margin-left:14px;padding-top:30px; padding-bottom:30px;">
+                  <p class="pro-intro-p">
                     Rustic, natural, often made of bark-covered logs or simple planks. Look for junk shop finds when in the country (for authenticity), or purchase hand-made new versions.
                   </p>
                 </div>
                 <div style="border-top:#ccc solid 1px; margin-left:14px; margin-top:10px;"></div>
               </div>
           </div>
-          <div class="mb20">
-              <h1 style="font-size:20px;">Color：</h1>
-              <span><i class="fa fa-square pro-color crred"></i></span>
-              <span><i class="fa fa-square pro-color cr93"></i></span>
-              <span><i class="fa fa-square pro-color cr999"></i></span>
-              <span><i class="fa fa-square pro-color cr5c"></i></span>
-              <span><i class="fa fa-square pro-color cref"></i></span>
-              <span><i class="fa fa-square pro-color cr5b"></i></span>
+          <div class="mb10">
+              <h1 class="pro-detail-r-h">Color：</h1>
+              <div class="mt10">
+                <span><i class="fa fa-square pro-color crred"></i></span>
+                <span><i class="fa fa-square pro-color cr93"></i></span>
+                <span><i class="fa fa-square pro-color cr999"></i></span>
+                <span><i class="fa fa-square pro-color cr5c"></i></span>
+                <span><i class="fa fa-square pro-color cref"></i></span>
+                <span><i class="fa fa-square pro-color cr5b"></i></span>
+              </div>
           </div>
-          <div  class="form-horizontal">
-              <h1 style="font-size:20px;">Size  ：</h1>
-              <select class="form-control pro-size pro-border">
+          <div class="form-horizontal">
+              <h1 class="pro-detail-r-h">Size  ：</h1>
+              <select class="form-control pro-size pro-border mt20">
                 <option>Queen</option>
                 <option>Max</option>
                 <option>Small</option>
               </select>
           </div>
-          <h4 class="mt15 mb15"><i class="fa fa-heart pr10 pro-heart"></i>Add to Wishlist</h4>
+          <h4 class="mt30 mb30 f20"><i class="fa fa-heart pr10 pro-heart f20"></i>Add to Wishlist</h4>
           <div class="form-horizontal">
             <div class="form-group">
-              <label for="inputEmail3" class="col-sm-1 control-label ">Qty</label>
-              <div class="col-sm-3">
-                <input type="number"  value="1" class="form-control pro-border" id="" placeholder="1">
+              <label for="inputEmail3" class="col-xs-1 control-label ">Qty</label>
+              <div class="col-xs-3">
+                <input type="number" value="1" class="form-control pro-border" id="" placeholder="1">
               </div>
-               <div class="col-sm-8">
+               <div class="col-xs-8">
                 <button type="submit" class="btn btn-default pro-border"><i class="fa fa-shopping-cart pr10"></i>Add to cart</button>
               </div>
             </div>
@@ -211,97 +206,101 @@
         
       </div>
       <!-- row -->
-      <div class="mt50">
+      <div class="mt50 pro-tab-border">
         <ul class="nav nav-tabs" role="tablist" id="myTab">
           <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab"><i class="fa fa-align-left pr10"></i>Descripion</a></li>
           <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab"><i class="fa fa-thumbs-up pr10"></i>Review</a></li>
           <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab"><i class="fa fa-file-text pr10"></i>Instructions</a></li>
         </ul>
 
-      <div class="tab-content">
-        <div role="tabpanel" class="tab-pane active mt20 mb20 p20" id="home">
-            <div class="row"> 
-                <div class="col-xs-2"> 
-                  <img src="images/img04.jpg" style="width:100%;">
-                </div>
-                 <div class="col-xs-10"> 
-                  <h4>Product Details</h4>
-                  <div>
-                    <p>
-                        Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
-                        Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
-                        Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
-                        Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
-                    </p>
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane active mt20 mb20 p20" id="home">
+              <div class="row"> 
+                  <div class="col-xs-2"> 
+                    <img src="images/img04.jpg" style="width:100%;">
                   </div>
-                </div>
-            </div>
-        </div>
-        <div role="tabpanel" class="tab-pane mt20 mb20 p20" id="profile">
-           <div class="row"> 
-                <div class="col-xs-2"> 
-                  <img src="images/re-header.png">
-                </div>
-                 <div class="col-xs-10"> 
-                  <h4>Product Details</h4>
-                  <div>
-                    <p>
-                        Online a lot of sell the clothes, have high low price, see a lot of home, finally selected DLY home.Later in other spend 160 to buy a home with sapphire, seemingly, but his upper body effect is obvious gap, more than one hundred doesn't fit, arm, the position of the stomach have plait, refuses to stick.A price points a points goods, praised!Very satisfied, 5 points high praise
-                    </p>
-                    <p>
-                      <span class="cr999">2015-02-02 13:59</span><span class="pl10 cr999">color:red</span> <span class="pl10 cr999">size:small</span>
-                    </p>
+                   <div class="col-xs-10"> 
+                    <h1 class="pro-desc-h">Product Details</h1>
+                    <div>
+                      <p>
+                          Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
+                          Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
+                          Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
+                          Founded in 2010.Tokyo in the coffee shop and hold activities, field at the scene as the center.Music in poetry reading said simple unit.Sounds a little boring perhaps poetry readings
+                      </p>
+                    </div>
                   </div>
-                </div>
-            </div>
-        </div>
-        <div role="tabpanel" class="tab-pane mt20 mb20 pr20" id="messages">
-           <div class="row"> 
-                <div class="col-xs-2"> 
-                  <img src="images/img04.jpg" style="width:100%;">
-                </div>
-                 <div class="col-xs-10"> 
-                  <h4>Product Details</h4>
-                  <div>
-                    <p>
-                        ２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。詩の朗読と言うと少し退屈に聞こえるかもしれませんが２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。詩の朗読と言うと少し退屈に聞こえるかもしれませんが２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。詩の朗読と言うと少し退屈に聞こえるかもしれませんが
-                    </p>
+              </div>
+          </div>
+          <div role="tabpanel" class="tab-pane mt20 mb20 p20" id="profile">
+             <div class="row"> 
+                  <div class="col-xs-2" style="padding: 40px 50px 10px 80px;"> 
+                    <img src="images/re-header.png">
                   </div>
-                </div>
-            </div>
-        </div>
-      </div> 
+                   <div class="col-xs-10"> 
+                    <h1 class="pro-desc-h">Product Details</h1>
+                    <div>
+                      <p>
+                          Online a lot of sell the clothes, have high low price, see a lot of home, finally selected DLY home.Later in other spend 160 to buy a home with sapphire, seemingly, but his upper body effect is obvious gap, more than one hundred doesn't fit, arm, the position of the stomach have plait, refuses to stick.A price points a points goods, praised!Very satisfied, 5 points high praise
+                      </p>
+                      <p class="mt10">
+                        <span class="cr999">2015-02-02 13:59</span><span class="pl10 cr999">color:red</span> <span class="pl10 cr999">size:small</span>
+                      </p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+          <div role="tabpanel" class="tab-pane mt20 mb20 p20" id="messages">
+             <div class="row"> 
+                  <div class="col-xs-2"> 
+                    <img src="images/img04.jpg" style="width:100%;">
+                  </div>
+                   <div class="col-xs-10"> 
+                    <h1 class="pro-desc-h">Product Details</h1>
+                    <div>
+                      <p>
+                          ２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。詩の朗読と言うと少し退屈に聞こえるかもしれませんが２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。詩の朗読と言うと少し退屈に聞こえるかもしれませんが２０１０年に結成しました。都内のカフェでのイベントや、野外フェスでのライブを中心に活動しています。音楽に乗せて詩を朗読すると言うシンプルな形のユニットです。詩の朗読と言うと少し退屈に聞こえるかもしれませんが
+                      </p>
+                    </div>
+                  </div>
+              </div>
+          </div>
+        </div> 
       </div>
       <!-- latest products -->
-      <div>
-        <h1 class="text-center">latest products</h1>
-        <h1 class="text-center">latest products</h1>
+      <div class="mt90">
+         <h1 class="text-center pro-latest-h">latest products</h1>
+        <div class="" style="clear:both;"></div>
+        <hr class="pro-latest-hr">
+        <div class="" style="clear:both;"></div>
+        <h1 class="text-center f14 pro-latest-h2">know more about our latest collection</h1>
         <!-- pro -->
         <div class="row product-list pro-center">
           <div class="col-xs-3 mb90">
              <div class="thumbnail">
-              <img src="images/imgexp.png" alt="">
-              <div class="caption">
-                <h3>COLORFVL SOFT</h3>
-                <p><a href="#" class="btn btn-default" role="button">ADD TO CART</a></p>
-                 <div class="hidecont">
-                  <ul>
-                    <li><a class='fav' href="#"><i class="fa fa-heart"></i></a></li>
-                    <li><a href="#"><i class="fa fa-exchange"></i></a></li>
-                    <li><a href="images/ss.jpg" rel="lightbox[roadtrip]"><i class="fa fa-expand"></i></a></li>
-                  </ul>
-                  <h3>BACCART</h3>
-                  <p>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                  </p>
-                  <span>$125.00</span>
+                <img src="images/imgexp.png" alt="">
+                <div class="caption">
+                  <h3>COLORFVL SOFT</h3>
+                  <p><a href="#" class="btn btn-default" role="button">ADD TO CART</a></p>
+                   <div class="hidecont">
+                    <ul>
+                      <li><a class='fav' href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                      <li><a href="images/ss.jpg" class="example-image-link" data-lightbox="example-set" data-title="Click the right half of the image to move forward." rel="lightbox[roadtrip]"><i class="fa fa-expand"></i>
+                      </a></li>
+                    </ul>
+                    <h3>BACCART</h3>
+                    <p>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </p>
+                    <span>$125.00</span>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="col-xs-3 mb90">
             <div class="thumbnail">
@@ -331,87 +330,60 @@
           <div class="col-xs-3 mb90">
              <div class="thumbnail">
               <img src="images/imgexp.png" alt="">
-              <div class="caption">
-                <h3>COLORFVL SOFT</h3>
-                <p><a href="#" class="btn btn-default" role="button">ADD TO CART</a></p>
-                 <div class="hidecont">
-                  <ul>
-                    <li><a class='fav' href="#"><i class="fa fa-heart"></i></a></li>
-                    <li><a href="#"><i class="fa fa-exchange"></i></a></li>
-                    <li><a href="images/ss.jpg" rel="lightbox[roadtrip]"><i class="fa fa-expand"></i></a></li>
-                  </ul>
-                  <h3>BACCART</h3>
-                  <p>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                  </p>
-                  <span>$125.00</span>
+                <div class="caption">
+                  <h3>COLORFVL SOFT</h3>
+                  <p><a href="#" class="btn btn-default" role="button">ADD TO CART</a></p>
+                   <div class="hidecont">
+                    <ul>
+                      <li><a class='fav' href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                      <li><a href="images/ss.jpg" rel="lightbox[roadtrip]"><i class="fa fa-expand"></i></a></li>
+                    </ul>
+                    <h3>BACCART</h3>
+                    <p>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </p>
+                    <span>$125.00</span>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
           <div class="col-xs-3 mb90">
              <div class="thumbnail">
-              <img src="images/imgexp.png" alt="">
-              <div class="caption">
-                <h3>COLORFVL SOFT</h3>
-                <p><a href="#" class="btn btn-default" role="button">ADD TO CART</a></p>
-                 <div class="hidecont">
-                  <ul>
-                    <li><a class='fav' href="#"><i class="fa fa-heart"></i></a></li>
-                    <li><a href="#"><i class="fa fa-exchange"></i></a></li>
-                    <li><a href="images/ss.jpg" rel="lightbox[roadtrip]"><i class="fa fa-expand"></i></a></li>
-                  </ul>
-                  <h3>BACCART</h3>
-                  <p>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star"></i>
-                    <i class="fa fa-star-o"></i>
-                  </p>
-                  <span>$125.00</span>
+                <img src="images/imgexp.png" alt="">
+                <div class="caption">
+                  <h3>COLORFVL SOFT</h3>
+                  <p><a href="#" class="btn btn-default" role="button">ADD TO CART</a></p>
+                   <div class="hidecont">
+                    <ul>
+                      <li><a class='fav' href="#"><i class="fa fa-heart"></i></a></li>
+                      <li><a href="#"><i class="fa fa-exchange"></i></a></li>
+                      <li><a href="images/ss.jpg" rel="lightbox[roadtrip]"><i class="fa fa-expand"></i></a></li>
+                    </ul>
+                    <h3>BACCART</h3>
+                    <p>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star"></i>
+                      <i class="fa fa-star-o"></i>
+                    </p>
+                    <span>$125.00</span>
+                  </div>
                 </div>
               </div>
-            </div>
           </div>
         </div>
       </div>
       
-  </div>
+     </div>
     <!-- container end -->
   </div>
   <!-- center content end -->
-<div class="contaienr">
-    <div id="preview" class="spec-preview"> 
-      <span class="jqzoom"><img jqimg="images/b1.jpg" src="images/s1.jpg" /></span> 
-    </div>
-    <!--缩图开始-->
-    <div class="spec-scroll"> <a class="prev">&lt;</a> <a class="next">&gt;</a>
-      <div class="items">
-        <ul>
-          <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b3.jpg" src="images/s3.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b3.jpg" src="images/s3.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b1.jpg" src="images/s1.jpg" onmousemove="preview(this);"></li>
-          <li><img alt="佳能" bimg="images/b2.jpg" src="images/s2.jpg" onmousemove="preview(this);"></li>
-        </ul>
-      </div>
-    </div>
-    <!--缩图结束-->
-  </div>
-
-</div>
   <!-- center content end -->
   
   <div class="footer ">

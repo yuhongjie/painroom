@@ -16,7 +16,8 @@ body{
   margin-top: 16px !important;
 }
 .pro-detail-home{
-  color: #fff;
+  text-decoration: none !important;
+  color: #fff !important;
   font-size: 14px;
 }
 .pro-detail-home:hover{
@@ -31,7 +32,10 @@ body{
   height:490px; 
   position:relative;
 }
-
+.jqzoom img{
+  width: 634px;
+  height: 490px;
+}
 .zoomdiv
 { 
   left:859px; 
@@ -122,7 +126,7 @@ body{
 .zoomdiv{
   z-index:100;
   position:absolute;
-  top:1px !important;
+  top:300px !important;
   left:700px !important;
   width:400px !important;
   height:400px !important;
@@ -273,4 +277,58 @@ padding-bottom:15px;
 }
 .pro-material{
   padding-top: 0px !important;
+}
+.pro-desc-h{
+  font-size: 16px;
+  font-weight: bolder;
+}
+.pro-detail-l-position{
+  position: initial !important;
+}
+.pro-detail-l-width{
+  position:relative !important;
+  width:640px !important;
+}
+.pro-detail-l-pre{
+  top: 72px !important;
+  position: absolute !important;
+  width: 30px !important;
+  height: 30px !important;
+  background-color: #ff7555 !important;
+  z-index: 1000 !important;
+}
+.pro-detail-l-pre-i{
+  position:absolute !important;
+  left:8px !important;
+}
+.pro-detail-l-next{
+  position:absolute;top: 72px !important;
+  right: 6px !important;
+  position: absolute !important; 
+  width: 30px !important;
+  height: 30px !important;
+  background-color: #ff7555 !important;
+  z-index: 1000 !important;
+}
+.pro-detail-l-next-i{
+  position:absolute !important;
+  right:8px !important;
+}
+.pro-detail-l-ul{
+  left: 0!important;
+}
+.pro-detail-r-col{
+   padding-left:120px !important;
+}
+.pro-detail-clear{
+  clear: both;
+}
+.pro-detail--r-material{
+  margin-left:14px !important; 
+  border-top:#ccc solid 1px !important;
+  margin-top:16px !important; 
+  margin-bottom:10px !important;
+}
+.pro-detail-r-h{
+  font-size: 20px !important;
 }
