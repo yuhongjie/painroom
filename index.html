@@ -13,12 +13,16 @@
     <link href="css/module.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet">
     <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link href="css/skins/flat/red.css" rel="stylesheet">
+    <link href="css/agreement.css" rel="stylesheet">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/lightbox.js"></script>
+    <script src="js/icheck.js"></script>
     <!--    flinks scroll    -->
     <script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
 
@@ -80,7 +84,7 @@
               <li class="active"><a href="index.html">Home</a> <span>/</span></li>
               <li><a href="products_list.html">Products</a><span>/</span></li>
               <li><a href="#">Made By</a><span>/</span></li>
-              <li><a data-toggle="modal"  data-target=".bs-example-modal-lg" href="#">Login</a></li>
+              <li><a data-toggle="modal"  data-target="#login-modal" href="#">Login</a></li>
             </ul>
             <form class="navbar-form navbar-right" role="search">
               <div class="form-group">
@@ -717,11 +721,11 @@
   </div>
 
   <!-- 登陆模态框 -->
-  <div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div id="login-modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
       <div class="modal-content">
         <div class="modal-header">
-          <!-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> -->
+          <!-- <button type="button" class="close" data-dismiss="modal" ><span aria-hidden="true">&times;</span></button> -->
           <h4 class="modal-title" id="exampleModalLabel"><span>LOGIN</span>
             <img src="images/login-img.png" alt="">
           </h4>
@@ -747,13 +751,117 @@
           <div class="col-xs-6 login-right">
             <h2>还不是痛部屋用户？</h2>
             <p>现在立即注册痛部屋用户，便能立刻享受个性十足的定制乐趣</p>
-            <button type="submit" class="btn btn-default">SIGN UP</button>
+            <button type="submit" class="btn btn-default" data-dismiss="modal"  data-toggle="modal"  data-target="#agreement-modal">SIGN UP</button>
           </div>
         </div>
       </div>
     </div>
   </div>
    <!-- 登陆模态框end -->
+   <!-- 注册模态框 -->
+   <div id="signup-modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+       <div class="modal-content">
+         <div class="modal-header">
+           <!-- <button type="button" class="close" data-dismiss="modal" ><span aria-hidden="true">&times;</span></button> -->
+           <h4 class="modal-title" id="exampleModalLabel"><span>SIGN UP</span>
+             <img src="images/login-img.png" alt="">
+           </h4>
+         </div>
+         <div class="row">
+           <div class="col-xs-6 login-left sign-left">
+             <form>
+               <div class="form-group">
+                 <label for="userid">USERNAME/EMAIL/MOB <span class="crff4">*</span></label>
+                 <input type="email" class="form-control" id="userid" placeholder="">
+               </div>
+               <div class="form-group">
+                 <label for="exampleInputPassword1">PASSWORD <span class="crff4">*</span></label>
+                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+               </div>
+               <div class="form-group">
+                 <label for="userid">REPEAT PASSWORD <span class="crff4">*</span></label>
+                 <input type="email" class="form-control" id="userid" placeholder="">
+               </div>
+               <div class="form-group">
+                 <label for="exampleInputPassword1">NICKNAME <span class="crff4">*</span></label>
+                 <input type="password" class="form-control" id="exampleInputPassword1" placeholder="">
+               </div>
+               <div class="checkbox">
+                   <label>
+                    <input type="checkbox"> <span>YOU AGREE  <a href="#" data-toggle="modal"  data-target="#agreement-modal" data-dismiss="modal" >USE AND PRIVACY NOTICE.</a></span>
+                   </label>
+                </div>
+               <button type="submit" class="btn btn-default">SIGN UP</button>
+               <script>
+               $(document).ready(function(){
+                 $('input').iCheck({
+                   checkboxClass: 'icheckbox_flat',
+                   radioClass: 'iradio_flat'
+                 });
+               });
+               </script>
+               <script>
+               $(document).ready(function(){
+                 $('input').iCheck({
+                   checkboxClass: 'icheckbox_flat-red',
+                   radioClass: 'iradio_flat-red'
+                 });
+               });
+               </script>
+             </form>
+           </div>
+           <div class="col-xs-6 login-right sign-right">
+             <h2>我已有账号</h2>
+             <p>直接登录</p>
+             <button type="button" class="btn btn-default" data-toggle="modal" data-dismiss="modal"   data-target="#login-modal">LOGIN</button>
+             <div class="third-login">
+               <a href="#"><i class="fa fa-facebook-square cr3b5"></i></a>
+               <a href="#"><i class="fa fa-twitter-square cr00b"></i></a>
+             </div>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- 注册模态框end -->
+   <!-- 协议模态框 -->
+   <div id="agreement-modal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+       <div class="modal-content">
+         <div class="modal-header">
+           <!-- <button type="button" class="close" data-dismiss="modal" ><span aria-hidden="true">&times;</span></button> -->
+           <h4 class="modal-title" id="exampleModalLabel"><span>CONDITIONS OF USE</span>
+             <img src="images/login-img.png" alt="">
+           </h4>
+         </div>
+         <div class="row">
+           <div class="col-xs-12 sign-agreement">
+            
+              <p>WELCOME TO AMAZON.COM. AMAZON SERVICES LLC AND/OR ITS AFFILIATES ("AMAZON") PROVIDE WEBSITE FEATURES AND OTHER PRODUCTS AND SERVICES TO YOU WHEN YOU VISIT OR SHOP AT AMAZON.COM, USE AMAZON PRODUCTS OR SERVICES, USE AMAZON APPLICATIONS FOR MOBILE, OR USE SOFTWARE PROVIDED BY AMAZON IN CONNECTION WITH ANY OF THE FOREGOING (COLLECTIVELY, "AMAZON SERVICES"). AMAZON PROVIDES THE AMAZON SERVICES SUBJECT TO THE FOLLOWING CONDITIONS.</p>
+              
+              <p>BY USING AMAZON SERVICES, YOU AGREE TO THESE CONDITIONS. PLEASE READ THEM CAREFULLY.</p>
+              
+             <p> WE OFFER A WIDE RANGE OF AMAZON SERVICES, AND SOMETIMES ADDITIONAL TERMS MAY APPLY. WHEN YOU USE AN AMAZON SERVICE (FOR EXAMPLE, YOUR PROFILE, GIFT CARDS, AMAZON INSTANT VIDEO, YOUR MEDIA LIBRARY, OR AMAZON APPLICATIONS FOR MOBILE ) YOU ALSO WILL BE SUBJECT TO THE GUIDELINES, TERMS AND AGREEMENTS APPLICABLE TO THAT AMAZON SERVICE ("SERVICE TERMS"). IF THESE CONDITIONS OF USE ARE INCONSISTENT WITH THE SERVICE TERMS, THOSE SERVICE TERMS WILL CONTROL.</p>
+              
+              <p>PRIVACY</p>
+              
+              <p>PLEASE REVIEW OUR PRIVACY NOTICE, WHICH ALSO GOVERNS YOUR USE OF AMAZON SERVICES, TO UNDERSTAND OUR PRACTICES.</p>
+              
+             <p> ELECTRONIC COMMUNICATIONS</p>
+              
+              <p>WHEN YOU USE ANY AMAZON SERVICE, OR SEND E-MAILS TO US, YOU ARE COMMUNICATING WITH US ELECTRONICALLY. YOU CONSENT TO RECEIVE COMMUNICATIONS FROM US ELECTRONICALLY. WE WILL COMMUNICATE WITH YOU BY E-MAIL OR BY POSTING NOTICES ON THIS SITE OR THROUGH THE OTHER AMAZON SERVICES. YOU AGREE THAT ALL AGREEMENTS, NOTICES, DISCLOSURES AND OTHER COMMUNICATIONS THAT WE PROVIDE TO YOU ELECTRONICALLY SATISFY ANY LEGAL REQUIREMENT THAT SUCH COMMUNICATIONS BE IN WRITING.</p>
+            
+             <form>
+               <button type="submit" class="btn btn-default" data-toggle="modal" data-dismiss="modal"   data-target="#signup-modal">ACCEPT</button>
+               <button type="button" class="btn btn-default" data-dismiss="modal" >REFUSAL</button>
+             </form>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- 协议模态框end -->
 
   </body>
 </html>

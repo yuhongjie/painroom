@@ -1,0 +1,32 @@
+.sign-agreement p {
+	margin-bottom: 28px;
+	padding-left: 50px;
+	padding-right: 50px;
+	text-align: left;
+	font-size: 12px;
+	color: #787878;
+	/*font-family: "GillSans";*/
+}
+.sign-agreement form button {
+	width: 194px;
+	height: 44px;
+	margin-right: 30px;
+	margin-bottom: 60px;
+	color: #fff;
+	border-color:transparent; 
+	border-radius:0!important;
+	background-color: #6e6e6e;
+	font-size: 18px;
+	font-family: "GillSans";
+
+}
+.sign-agreement form button:hover,.sign-agreement form button:focus,.sign-agreement form button:active {
+	color: #fff;
+	background-color: #ff7655;
+}
+.sign-agreement form button[type="submit"] {
+	background-color: #ff7655;
+}
+.sign-agreement form button[type="button"] {
+	
+}

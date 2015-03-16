@@ -1,0 +1,16 @@
+.pro-list-body {
+    padding-top: 60px;
+}
+.search-result-title {
+	margin-top: -10px!important;
+	margin-bottom: 75px;
+	padding-bottom: 10px!important;
+	font-size: 18px;
+	font-weight: bolder;
+	font-family: "Montserrat"!important;
+	border-bottom: 1px solid #E9E9E8;
+	letter-spacing: 1px;
+}
+.search-result-title span {
+	color: #FF7555;
+}
