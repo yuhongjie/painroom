@@ -1,0 +1,21 @@
+.l-aboutus {
+	min-height: 1140px;
+}
+.l-aboutus h2 {
+	margin-top: 10px;
+	margin-bottom: 40px;
+	padding-bottom: 12px;
+	font-size: 24px;
+	border-bottom: 1px solid #A2A39F;
+	font-family: "Montserrat";
+	font-weight: bolder;
+	color: #FF7555;
+}
+.l-aboutus p {
+	margin-bottom: 75px;
+	line-height: 20px;
+	font-family: "Myriad Pro";
+}
+.l-aboutus img {
+	margin-bottom: 50px;
+}
