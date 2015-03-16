@@ -1,0 +1,36 @@
+.sign-left {
+	margin-top: 0;
+	padding-left: 82px;
+	padding-top: 0;
+	border-right: 1px solid #EEEEEE;
+}
+.sign-left .form-group {
+margin-bottom: 30px;
+}
+.sign-left .checkbox {
+	font-size: 12px
+}
+.sign-left .checkbox a {
+	color: #FF7555;
+}
+.sign-left .checkbox span {
+	display: inline-block;
+	padding-left: 10px;
+	position: absolute;
+	top: 2px;
+}
+.sign-left .checkbox label {
+	padding-left: 0;
+}
+.sign-right .third-login {
+	font-size: 40px;
+	margin-top: 50px;
+}
+.sign-right h2 {
+	font-family: STHeitiSC;
+	color: #555454;
+}
+.sign-right button {
+	margin-top: 13px;
+}
+

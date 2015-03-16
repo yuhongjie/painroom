@@ -10,9 +10,13 @@ body{
   margin-bottom: 50px;
 }
 .pay-bread-h4{
+  font-size: 18px;
   float: left;
   font-weight: bolder;
   margin-top: 16px !important;
+}
+.pay-bread-home-a:hover{
+	color: #FF7555 ;
 }
 /*login*/
 .pay-login-title{
@@ -35,6 +39,7 @@ body{
 	border-color: #ff7555;
 }
 .btn-continu {
+	margin-top: -10px;
 	border-radius: 0 !important;
 	padding: 6px 30px !important;
 	font-size: 12px !important;

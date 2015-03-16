@@ -3,8 +3,8 @@
 }
 /*产品排序*/
 .pro-rank ul {
-	margin-top: -10px;
-	width: 300px;
+	margin-top: -10px ;
+	width: 600px;
 	height: 40px;
 	margin-bottom: 15px;
 	float: right;
@@ -14,13 +14,16 @@
 }
 .pro-rank ul li a {
 	display: inline-block;
-	width: 60px;
+	padding: 5px 8px;
 	border:1px solid #D0D0D0;
 	color: black;
 	font-size: 14px;
 	font-family: "微软雅黑";
 	background-color: #F8F8F8;
-	padding: 5px;
+	text-align: center;
+}
+.pro-rank ul li a i {
+	padding-left: 5px;
 }
 .pro-rank ul li a:hover ,.pro-rank ul li a.currt {
 	text-decoration: none;

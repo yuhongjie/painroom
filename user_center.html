@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="ja" xml:lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -40,7 +40,7 @@
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -50,9 +50,9 @@
               <img alt="Brand" src="images/logo.png">
             </a>
           </div>
-    
+
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="navbar-collapse collapse">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html">Home</a> <span>/</span></li>
               <li><a href="products_list.html">Products</a><span>/</span></li>
@@ -70,7 +70,7 @@
       </nav>
     </div>
   </div>
-  <!-- header end -->
+<!--   header end -->
 <!-- 路径导航 -->
    <div class="path-nav">
     <div class="container">
@@ -128,9 +128,10 @@
         <table class="table table-bordered">
           <tr>
           <th class="wp180">PRODUCT IMAGE</th>
-          <th class="wp300">PRODUCT NAME</th>
+          <th class="wp200">PRODUCT NAME</th>
           <th>PRICE</th>
-          <th></th>
+          <th class="wp180">ORDER STATUS</th>
+          <th class="wp100"></th>
           </tr>
           <tr>
           <td><a href="#"><img src="#" alt=""></a></td>
@@ -146,7 +147,12 @@
               <s>$580</s>
               <b>$420</b></h3>
           </td>
-          <td><a class="butn" href="#">EDIT</a></td>
+          <td>
+            <h3>
+            ACCOUNT PAID
+            </h3>
+          </td>
+          <td><a class="butn" href="#">DELETE</a></td>
           </tr>
           <tr>
           <td><a href="#"><img src="#" alt=""></a></td>
@@ -160,13 +166,18 @@
           <td>
             <h3><b>$420</b></h3>
           </td>
-          <td><a class="butn" href="#">EDIT</a></td>
+          <td>
+            <h3>
+            ACCOUNT PAID
+            </h3>
+          </td>
+          <td><a class="butn" href="#">DELETE</a></td>
           </tr>
         </table>
       </div>
      <div class="use-r-worklist">
         <h2>WORKLIST LIST</h2>
-        <p>制作自己的商品吧</p>
+        <p>Make your own goods</p>
      </div>
     </div>
   </div>
@@ -270,7 +281,7 @@
 </div>
  <!-- 登陆模态框end -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>

@@ -13,7 +13,7 @@
 	height: 52px;
 	background-color: #FF7555;
 	font-size: 14px;
-	font-family: 微软雅黑;
+	font-family: "冬青黑体简中文";
 }   
  .home-top-acco {
 	border-left: 1px solid #FFAC82;
@@ -45,7 +45,7 @@
 	padding: 0 15px;
 	line-height: 50px;
 	color: #fff!important;
-	font-size: 13px;
+	font-size: 12px;
 	font-weight: bolder;
 }
 .header-top ul li a:hover {
@@ -203,7 +203,7 @@ hr {
 	width: 92%;
 	margin-left: 100px;
 	padding-right: 10px;
-	top: 6px;
+	top: 28px;
 }
 
 
@@ -213,7 +213,8 @@ hr {
 	padding-top: 10px;
 }
 .product-list h2 {
-	padding-bottom: 30px;
+	margin-top: 24px;
+	padding-bottom: 50px;
 	text-align: left;
 	font-family: "黑体";
 	font-size: 20px;
@@ -326,7 +327,6 @@ hr {
 	float: left;
 	line-height: 52px;
 	font-size: 18px;
-	font-weight: bolder;
 	color: #fff;
 }
 .l-breadcrumb {
@@ -394,6 +394,7 @@ hr {
     font-family:"Myriad Pro",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
 }
 .slide .list-group a {
+	font-family:"Myriad Pro",'冬青黑体简中文',Microsoft YaHei,Helvetica,arial,'Hiragino Sans GB',\5b8b\4f53,sans-serif;
     padding-left: 0;
     border:none;
     font-size: 14px;
