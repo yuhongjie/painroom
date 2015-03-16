@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="ja" xml:lang="ja">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -41,7 +41,7 @@
         <div class="container-fluid">
           <!-- Brand and toggle get grouped for better mobile display -->
           <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
               <span class="sr-only">Toggle navigation</span>
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
@@ -51,9 +51,9 @@
               <img alt="Brand" src="images/logo.png">
             </a>
           </div>
-    
+
           <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="navbar-collapse collapse">
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
               <li class="active"><a href="index.html">Home</a> <span>/</span></li>
               <li><a href="products_list.html">Products</a><span>/</span></li>
@@ -71,7 +71,7 @@
       </nav>
     </div>
   </div>
-  <!-- header end -->
+<!--   header end -->
 <!-- 路径导航 -->
    <div class="path-nav">
     <div class="container">
@@ -95,8 +95,8 @@
     <table class="table table-bordered">
       <tr>
       <th class="wp140">PRODUCT IMAGE</th>
+      <th class="wp200">ORDER NO.</th>
       <th class="tl">PRODUCT NAME</th>
-      <th class="wp70">EDIT</th>
       <th class="wp70">PRICE</th>
       <th class="wp100">QUANTITY</th>
       <th class="wp70">TOTAL</th> 
@@ -104,6 +104,7 @@
       </tr>
       <tr>
       <td><a href="#"><img src="#" alt=""></a></td>
+      <td><h4>T168812345679</h4></td>
       <td class="tl pl20">
         <h3>DINING TABLE</h3>
         <p>MANUFACTURER:<span>Tartaan&co</span></p>
@@ -111,7 +112,6 @@
         <p>COLOE:<span>Black</span></p>
         <p>SIZE:<span>Queen</span></p>
       </td>
-      <td><a class="butn" href="#"><i class="fa fa-pencil-square-o"></i></a></td>
       <td>
         <h3>
           <s>$580</s>
@@ -133,6 +133,7 @@
       </tr>
       <tr>
       <td><a href="javascript:void(0);"><img src="#" alt=""></a></td>
+      <td><h4>T168812345678</h4></td>
       <td class="tl pl20">
         <h3>DINING TABLE</h3>
         <p>MANUFACTURER:<span>Tartaan&co</span></p>
@@ -141,7 +142,6 @@
           COLOE:<span>Black</span></p>
         <p>SIZE:<span>Queen</span></p>
       </td>
-      <td><a class="butn tc" href="#"><i class="fa fa-pencil-square-o"></i></a></td>
       <td>
         <h3><b>$420</b></h3>
       </td>
@@ -175,7 +175,7 @@
       </tr>
     </table>
     <div class="conf-box">
-      <h3>SUBTOTAL<span>$1260</span></h3>
+      <h3 class="f14">SUBTOTAL<span class="f14">$1260</span></h3>
       <h4>GRAND TOTAL<span> $1260</span></h4>
       <a href="">PROCEED TO CHECKOUT</a>
       <p>Checkout  with multiple addresses</p>
@@ -282,7 +282,7 @@
 </div>
  <!-- 登陆模态框end -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="js/jquery-2.1.1/jquery.min.js"></script>
+     <script type="text/javascript" src="js/jquery-1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
     <!-- 购物车计数 -->
