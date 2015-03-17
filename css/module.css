@@ -137,6 +137,12 @@
     text-decoration: underline;
     background-color: #F5F5F5;
 }
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+    color: #555;
+    background-color: #E7E7E7;
+    color: #FF7555;
+}
+
 .footer {
 	height: 200px;
 	/*min-width: 980px;*/

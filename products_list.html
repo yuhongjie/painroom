@@ -19,6 +19,24 @@
     <script src="js/bootstrap.min.js"></script>
 
     <script src="js/lightbox.js"></script>
+    <script>
+      $(document).ready(function(){
+            dropdownOpen();//调用
+          });
+          /**
+           * 鼠标划过就展开子菜单，免得需要点击才能展开
+           */
+          function dropdownOpen() {
+      
+            var $dropdownLi = $('li.dropdown');
+      
+            $dropdownLi.mouseover(function() {
+              $(this).addClass('open');
+            }).mouseout(function() {
+              $(this).removeClass('open');
+            });
+          }
+      </script>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
