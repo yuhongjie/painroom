@@ -53,6 +53,7 @@
 	text-decoration: none;
 }
 .dropdown-menu {
+	padding: 0px;
 	border-radius: 0!important;
 }
 .header-bottom {
@@ -124,7 +125,7 @@
 /*    padding-bottom: 5px;*/
 }
 .header-bottom .navbar-nav > li > a:hover,.header-bottom .navbar-nav > li > a:active,.header-bottom .navbar-nav > li > a:focus {
-	text-decoration: underline;
+	text-decoration: none;
 	color: #FF7555;
 }
 .dropdown-menu > li > a {
@@ -134,7 +135,7 @@
 }
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
     color: #FF7555;
-    text-decoration: underline;
+    text-decoration: none;
     background-color: #F5F5F5;
 }
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
