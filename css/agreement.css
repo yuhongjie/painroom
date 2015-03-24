@@ -1,3 +1,8 @@
+.sign-agreement{
+  width: 900px;
+  overflow: auto;
+  height: 430px;
+}
 .sign-agreement p {
 	margin-bottom: 28px;
 	padding-left: 50px;
@@ -7,7 +12,7 @@
 	color: #787878;
 	/*font-family: "GillSans";*/
 }
-.sign-agreement form button {
+.sign-agreement-button form button {
 	width: 194px;
 	height: 44px;
 	margin-right: 30px;
@@ -20,13 +25,13 @@
 	font-family: "GillSans";
 
 }
-.sign-agreement form button:hover,.sign-agreement form button:focus,.sign-agreement form button:active {
+.sign-agreement-button form button:hover,.sign-agreement form button:focus,.sign-agreement form button:active {
 	color: #fff;
 	background-color: #ff7655;
 }
-.sign-agreement form button[type="submit"] {
+.sign-agreement-button  form button[type="submit"] {
 	background-color: #ff7655;
 }
-.sign-agreement form button[type="button"] {
+.sign-agreement-button  form button[type="button"] {
 	
 }

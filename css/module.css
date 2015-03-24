@@ -129,9 +129,9 @@
 	color: #FF7555;
 }
 .dropdown-menu > li > a {
-    color: #FF7555;
+    color: #ddd;
     text-decoration: none;
-    background-color: #F5F5F5;
+    background-color: #fff;
 }
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
     color: #FF7555;
@@ -669,4 +669,14 @@ hr {
 
 .navbar-form .has-feedback .form-control-feedback {
   top: 0;
+}
+/*导航下拉*/
+.dropdown-menu-a>li>a{
+  display: block;
+  padding: 10px 20px !important;
+  clear: both;
+  font-weight: 400;
+  line-height: 1.42857143;
+  color: #333;
+  white-space: nowrap;
 }
